@@ -56,6 +56,25 @@ Route::prefix('properties')->group(function () {
 });
 
 /**
+ * Owner Routes
+ */
+Route::prefix('owners')->group(function () {
+
+    Route::get('/', 'OwnerController@index')->name('owner.index');
+
+    Route::post('/create', 'OwnerController@create')->name('owner.create');
+
+    Route::get('/delete/{id}', 'OwnerController@delete')->name('owner.delete');
+
+    Route::get('/manage/{id}', 'OwnerController@manage')->name('owner.manage');
+
+    Route::post('/address/create', 'OwnerController@createAddress')->name('owner.address.create');
+
+    Route::get('/{id}/addresses', 'OwnerController@listAddresses')->name('owner.addresses.list');
+
+});
+
+/**
  * Ticket Routes
  */
 Route::prefix('tickets')->group(function () {
@@ -77,4 +96,6 @@ Route::prefix('tickets')->group(function () {
  * Location Routes
  */
 Route::get('/location', 'LocationController@show');
+
+Route::get('/quickbooks', 'QuickBooksController@index');
 

@@ -4,14 +4,14 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Hoa extends Model
+class Owner extends Model
 {
     /**
      * The table associated with the model.
      *
      * @var string
      */
-    protected $table = 'hoa';
+    protected $table = 'owners';
 
     /**
      * The attributes that aren't mass assignable.
@@ -31,26 +31,26 @@ class Hoa extends Model
     ];
 
     /**
-     * Get the properties in the HOA
+     * Get the property that this property belongs to
      */
-    public function properties()
+    public function property()
     {
-        return $this->hasMany(Property::class);
+        return $this->belongsTo(Property::class);
     }
 
     /**
-     * Get the properties in the HOA
+     * Get the HOA that this property belongs to
      */
-    public function tickets()
+    public function hoa()
     {
-        return $this->hasMany(Ticket::class);
+        return $this->belongsTo(Hoa::class);
     }
 
     /**
-     * Get the properties in the HOA
+     * Get the tickets related to this property
      */
-    public function owners()
+    public function addresses()
     {
-        return $this->hasMany(Owner::class);
+        return $this->hasMany(OwnerAddress::class);
     }
 }
