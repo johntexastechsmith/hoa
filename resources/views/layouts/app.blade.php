@@ -47,7 +47,9 @@
                             <li><a href="{{ route('login') }}">Login</a></li>
                             <li><a href="{{ route('register') }}">Register</a></li>
                         @else
-                            <li><a href="{{ route('hoa.manage', ['id' => $hoa->id]) }}">Home</a></li>
+                            @if (!empty($hoa))
+                                <li><a href="{{ route('hoa.manage', ['id' => $hoa->id]) }}">Home</a></li>
+                            @endif
                             <li><a href="{{ route('hoa.index') }}">Admin</a></li>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
