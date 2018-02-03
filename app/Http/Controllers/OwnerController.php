@@ -24,9 +24,9 @@ class OwnerController extends Controller
         return view('owner.index', ['hoa' => $hoa, 'owners' => $owners]);
     }
 
-    public function create(Request $request)
+    public function add(Request $request)
     {
-        $property = Property::where('id', '=', $request->property_id)->firstOrFail();
+        $property = Property::where('id', '=', 1)->firstOrFail();
 
         $owner = new Owner();
         $owner->account_name = $property->street_address . ' (' . Carbon::now()->toDateString() . ')';
@@ -34,6 +34,7 @@ class OwnerController extends Controller
         $owner->last_name = $request->last_name;
         $owner->phone_number = $request->phone_number;
         $owner->email_address = $request->email_address;
+        dd($request->all());
         $owner->active = $request->active;
         $owner->hoa()->associate($property->hoa);
         $owner->property()->associate($property);
