@@ -53,4 +53,41 @@ class Hoa extends Model
     {
         return $this->hasMany(Owner::class);
     }
+
+    /**
+     * Get the settings for this HOA
+     */
+    public function settings()
+    {
+        return $this->hasMany(Setting::class);
+    }
+
+    /**
+     * @param $name
+     * @param $value
+     * @return Setting
+     */
+    public function createOrUpdateSetting($name, $value)
+    {
+        $setting = Setting::where('name', $name)->first();
+        $setting = ($setting instanceof Setting) ? $setting : new Setting();
+        $setting->name = $name;
+        $setting->value = $value;
+
+        return $this->settings()->save($setting);
+    }
+
+    public function getSetting($name)
+    {
+        return Setting::where('hoa_id', $this->id)->where('name', $name)->first();
+    }
+
+    public function getSettingValue($name)
+    {
+        if (Setting::where('hoa_id', $this->id)->where('name', $name)->first() instanceof Setting) {
+            return Setting::where('hoa_id', $this->id)->where('name', $name)->first()->value;
+        } else {
+            return null;
+        }
+    }
 }

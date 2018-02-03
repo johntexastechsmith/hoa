@@ -34,10 +34,21 @@ Route::prefix('hoa')->group(function () {
 
     Route::post('/create', 'HoaController@create')->name('hoa.create');
 
-    Route::get('/delete/{id}', 'HoaController@delete')->name('hoa.delete');
+    Route::get('/{id}/delete', 'HoaController@delete')->name('hoa.delete');
 
-    Route::get('/manage/{id}', 'HoaController@manage')->name('hoa.manage');
+    Route::get('/{id}/manage', 'HoaController@manage')->name('hoa.manage');
 
+    /**
+     * HOA Admin pages for backend settings, like integrations
+     */
+    Route::prefix('/{id}/admin')->group(function () {
+
+        Route::get('/quickbooks', 'QuickbooksController@index')->name('quickbooks.index');
+
+        Route::post('/quickbooks/authorize', 'QuickbooksController@authorizeAccess')->name('quickbooks.authorize');
+    });
+
+    Route::get('/quickbooks/oauth/return', 'QuickbooksController@acceptCode')->name('quickbooks.return');
 });
 
 /**
@@ -49,11 +60,13 @@ Route::prefix('properties')->group(function () {
 
     Route::post('/create', 'PropertyController@create')->name('property.create');
 
-    Route::get('/delete/{id}', 'PropertyController@delete')->name('property.delete');
+    Route::get('/{id}/delete', 'PropertyController@delete')->name('property.delete');
 
-    Route::get('/manage/{id}', 'PropertyController@manage')->name('property.manage');
+    Route::get('/{id}/manage', 'PropertyController@manage')->name('property.manage');
 
 });
+
+Route::post('/owner/create', 'OwnerController@add')->name('owner.create');
 
 /**
  * Owner Routes
@@ -62,11 +75,11 @@ Route::prefix('owners')->group(function () {
 
     Route::get('/', 'OwnerController@index')->name('owner.index');
 
-    Route::post('/create', 'OwnerController@create')->name('owner.create');
 
-    Route::get('/delete/{id}', 'OwnerController@delete')->name('owner.delete');
 
-    Route::get('/manage/{id}', 'OwnerController@manage')->name('owner.manage');
+    Route::get('/{id}/delete', 'OwnerController@delete')->name('owner.delete');
+
+    Route::get('/{id}/manage', 'OwnerController@manage')->name('owner.manage');
 
     Route::post('/address/create', 'OwnerController@createAddress')->name('owner.address.create');
 
@@ -83,9 +96,9 @@ Route::prefix('tickets')->group(function () {
 
     Route::post('/create', 'TicketController@create')->name('ticket.create');
 
-    Route::get('/delete/{id}', 'TicketController@delete')->name('ticket.delete');
+    Route::get('/{id}/delete', 'TicketController@delete')->name('ticket.delete');
 
-    Route::get('/manage/{id}', 'TicketController@manage')->name('ticket.manage');
+    Route::get('/{id}/manage', 'TicketController@manage')->name('ticket.manage');
 
     Route::post('/note/create', 'TicketController@createNote')->name('ticket.note.create');
 
