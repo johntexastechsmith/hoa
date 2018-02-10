@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreatePropertiesTable extends Migration
+class CreateHoaTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,19 +13,18 @@ class CreatePropertiesTable extends Migration
      */
     public function up()
     {
-        Schema::create('properties', function (Blueprint $table) {
+        Schema::create('hoa', function (Blueprint $table) {
             $table->increments('id');
-            $table->integer('hoa_id');
-            $table->text('street_number');
-            $table->text('street_name');
+            $table->text('name');
+            $table->text('street_address_line_1');
+            $table->text('street_address_line_2')->nullable();
             $table->text('city');
             $table->string('state', 2);
             $table->string('zip', 5);
-            $table->decimal('lat', 10, 7);
-            $table->decimal('lng', 10, 7);
+            $table->text('uri');
             $table->timestamps();
 
-            $table->unique(['hoa_id', 'street_number', 'street_name']);
+            $table->unique(['name']);
         });
     }
 
@@ -36,6 +35,6 @@ class CreatePropertiesTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('properties');
+        Schema::dropIfExists('hoa');
     }
 }

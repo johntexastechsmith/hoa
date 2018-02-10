@@ -27,13 +27,33 @@ class User extends Authenticatable
         'password', 'remember_token',
     ];
 
+    /**
+     * gets tickets user has opened.
+     *
+     * @return Ticket|null
+     */
     public function tickets()
     {
         return $this->hasMany(Ticket::class, 'id', 'opened_by');
     }
 
+    /**
+     * gets the notes the user has created
+     *
+     * @return TicketNote|null
+     */
     public function notes()
     {
         return $this->hasMany(TicketNote::class, 'id', 'created_by');
+    }
+
+    /**
+     * gets the owner if user is a owner.
+     *
+     * @return Owner|null
+     */
+    public function owner()
+    {
+        return $this->belongsTo(Owner::class);
     }
 }

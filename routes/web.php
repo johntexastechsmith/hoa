@@ -18,12 +18,10 @@ use Illuminate\Support\Facades\Auth;
  */
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
-
 /**
  * Home page
  */
-Route::get('/', 'HoaController@index')->name('hoa.index');
+Route::get('/', 'HomeController@index')->name('home');
 
 /**
  * HOA Routes
