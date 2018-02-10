@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateHoaTable extends Migration
+class CreateOwnerPropertyTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,12 +13,9 @@ class CreateHoaTable extends Migration
      */
     public function up()
     {
-        Schema::create('hoa', function (Blueprint $table) {
-            $table->increments('id');
-            $table->text('name');
-            $table->timestamps();
-
-            $table->unique(['name']);
+        Schema::create('owner_property', function (Blueprint $table) {
+            $table->integer('owner_id');
+            $table->integer('property_id');
         });
     }
 
@@ -29,6 +26,6 @@ class CreateHoaTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('hoa');
+        Schema::dropIfExists('owner_property');
     }
 }

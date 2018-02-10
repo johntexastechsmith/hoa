@@ -25,8 +25,6 @@ class CreateOwnerAddressesTable extends Migration
             $table->timestamps();
 
             $table->unique(['owner_id', 'street_number', 'street_name']);
-
-            $table->foreign('owner_id')->references('id')->on('owners')->onDelete('cascade');
         });
     }
 

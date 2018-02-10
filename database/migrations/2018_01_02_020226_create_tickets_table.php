@@ -25,9 +25,6 @@ class CreateTicketsTable extends Migration
             $table->text('status');
             $table->text('description');
             $table->timestamps();
-
-            $table->foreign('property_id')->references('id')->on('properties')->onDelete('cascade');
-            $table->foreign('hoa_id')->references('id')->on('hoa')->onDelete('cascade');
         });
     }
 
@@ -38,6 +35,7 @@ class CreateTicketsTable extends Migration
      */
     public function down()
     {
+        Schema::dropIfExists('ticket_notes');
         Schema::dropIfExists('tickets');
     }
 }

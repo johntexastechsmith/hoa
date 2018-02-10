@@ -2,6 +2,7 @@
 
 namespace App;
 
+use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
 
 class Owner extends Model
@@ -31,15 +32,19 @@ class Owner extends Model
     ];
 
     /**
-     * Get the property that this property belongs to
+     * Get all the properties related to the owner
+     *
+     * @return Collection
      */
-    public function property()
+    public function properties()
     {
-        return $this->belongsTo(Property::class);
+        return $this->belongsToMany(Property::class);
     }
 
     /**
      * Get the HOA that this property belongs to
+     *
+     * @return Hoa
      */
     public function hoa()
     {
@@ -48,9 +53,21 @@ class Owner extends Model
 
     /**
      * Get the tickets related to this property
+     *
+     * @return Collection
      */
     public function addresses()
     {
         return $this->hasMany(OwnerAddress::class);
+    }
+
+    /**
+     * Gets the associated user. one to one relationship
+     *
+     * @return User|null
+     */
+    public function user()
+    {
+        return $this->hasOne(User::class);
     }
 }

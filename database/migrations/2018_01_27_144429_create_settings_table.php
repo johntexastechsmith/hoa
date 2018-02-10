@@ -21,8 +21,6 @@ class CreateSettingsTable extends Migration
             $table->timestamps();
 
             $table->unique(['hoa_id', 'name']);
-
-            $table->foreign('hoa_id')->references('id')->on('hoa')->onDelete('cascade');
         });
     }
 

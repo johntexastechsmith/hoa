@@ -2,6 +2,7 @@
 
 namespace App;
 
+use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
 
 class Property extends Model
@@ -32,6 +33,8 @@ class Property extends Model
 
     /**
      * Get the HOA that this property belongs to
+     *
+     * @return Hoa
      */
     public function hoa()
     {
@@ -40,17 +43,35 @@ class Property extends Model
 
     /**
      * Get the tickets related to this property
+     *
+     * @return Collection
      */
     public function tickets()
     {
         return $this->hasMany(Ticket::class);
     }
 
+    /**
+     * Get all owners related to this property
+     *
+     * @return Collection
+     */
+    public function owners()
+    {
+        return $this->belongsToMany(Owner::class);
+    }
+
+    /**
+     * @return string
+     */
     public function getStreetAddressAttribute()
     {
         return "{$this->street_number} {$this->street_name}";
     }
 
+    /**
+     * @return string
+     */
     public function getFullAddressAttribute()
     {
         return "{$this->street_number} {$this->street_name}, {$this->city}, {$this->state} {$this->zip}";

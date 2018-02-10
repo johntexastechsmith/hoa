@@ -19,8 +19,6 @@ class CreateTicketNoteTable extends Migration
             $table->integer('created_by');
             $table->text('note');
             $table->timestamps();
-
-            $table->foreign('ticket_id')->references('id')->on('tickets')->onDelete('cascade');
         });
     }
 

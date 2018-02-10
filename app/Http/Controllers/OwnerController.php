@@ -34,10 +34,8 @@ class OwnerController extends Controller
         $owner->last_name = $request->last_name;
         $owner->phone_number = $request->phone_number;
         $owner->email_address = $request->email_address;
-        dd($request->all());
         $owner->active = $request->active;
         $owner->hoa()->associate($property->hoa);
-        $owner->property()->associate($property);
         $owner->save();
 
         return redirect()->route('owner.index');
