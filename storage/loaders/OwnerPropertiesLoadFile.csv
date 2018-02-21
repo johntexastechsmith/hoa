@@ -1,21 +1,662 @@
-hoa,street_number,street_name,city,state,zip,account_name,first_name,last_name,phone_number,email_address,owner_address_street_number,owner_address_street_name,owner_address_city,owner_address_state,owner_address_zip
-Eldorado Heights 1,4701,Basil Drive,Mckinney,TX,75070,,,,,,4701,Basil Drive,Mckinney,TX,75070
-Eldorado Heights 1,4702,Basil Drive,Mckinney,TX,75070,,,,,,4702,Basil Drive,Mckinney,TX,75070
-Eldorado Heights 1,4703,Basil Drive,Mckinney,TX,75070,,,,,,4703,Basil Drive,Mckinney,TX,75070
-Eldorado Heights 1,4704,Basil Drive,Mckinney,TX,75070,,,,,,4704,Basil Drive,Mckinney,TX,75070
-Eldorado Heights 1,4705,Basil Drive,Mckinney,TX,75070,,,,,,4705,Basil Drive,Mckinney,TX,75070
-Eldorado Heights 1,4706,Basil Drive,Mckinney,TX,75070,,,,,,4706,Basil Drive,Mckinney,TX,75070
-Eldorado Heights 1,4707,Basil Drive,Mckinney,TX,75070,,,,,,4707,Basil Drive,Mckinney,TX,75070
-Eldorado Heights 1,4708,Basil Drive,Mckinney,TX,75070,,,,,,4708,Basil Drive,Mckinney,TX,75070
-Eldorado Heights 1,4709,Basil Drive,Mckinney,TX,75070,,,,,,4709,Basil Drive,Mckinney,TX,75070
-Eldorado Heights 1,4710,Basil Drive,Mckinney,TX,75070,,,,,,4710,Basil Drive,Mckinney,TX,75070
-Eldorado Heights 1,4711,Basil Drive,Mckinney,TX,75070,,,,,,4711,Basil Drive,Mckinney,TX,75070
-Eldorado Heights 1,4712,Basil Drive,Mckinney,TX,75070,,,,,,4712,Basil Drive,Mckinney,TX,75070
-Eldorado Heights 1,4713,Basil Drive,Mckinney,TX,75070,,,,,,4713,Basil Drive,Mckinney,TX,75070
-Eldorado Heights 1,4714,Basil Drive,Mckinney,TX,75070,,,,,,4714,Basil Drive,Mckinney,TX,75070
-Eldorado Heights 1,4715,Basil Drive,Mckinney,TX,75070,,,,,,4715,Basil Drive,Mckinney,TX,75070
-Eldorado Heights 1,4716,Basil Drive,Mckinney,TX,75070,,,,,,4716,Basil Drive,Mckinney,TX,75070
-Eldorado Heights 1,4717,Basil Drive,Mckinney,TX,75070,,,,,,4717,Basil Drive,Mckinney,TX,75070
-Eldorado Heights 1,4718,Basil Drive,Mckinney,TX,75070,,,,,,4718,Basil Drive,Mckinney,TX,75070
-Eldorado Heights 1,4719,Basil Drive,Mckinney,TX,75070,,,,,,4719,Basil Drive,Mckinney,TX,75070
-Eldorado Heights 1,4720,Basil Drive,Mckinney,TX,75070,,,,,,4720,Basil Drive,Mckinney,TX,75070
+"hoa","street_number","street_name","city","state","zip","account_name","name","phone_number","email_address","owner_address_street_number","owner_address_street_name","owner_address_city","owner_address_state","owner_address_zip"
+"Eldorado Heights Phase 1 HOA, Inc.",3000,"Palm Tree Drive","McKinney","TX",75070,"3000 Palm Tree Drive (02017-0724)","Joselito & Nicole L. Delossantos",,,3000,"Palm Tree Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3002,"Palmtree Drive","McKinney","TX",75070,"3002 Palmtree Drive (00270-4841)","Smith, Roger & Maureen",,,3002,"Palmtree Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3004,"Palmtree Drive","McKinney","TX",75070,"3004 Palmtree Drive (02016-0427)","Russell and Roshelle Thornock",,,3004,"Palmtree Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3006,"Palmtree Drive","McKinney","TX",75070,"3006 Palmtree Drive (00270-4867)","Biggio, L. Hudson & Carolyn",,"cbiggio@att.net",3006,"Palmtree Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3008,"Palmtree Drive","McKinney","TX",75070,"3008 Palmtree Drive (00270-4883)","Boring, James & Kimberly",,,3008,"Palmtree Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3010,"Palmtree Drive","McKinney","TX",75070,"3010 Palmtree Drive (00270-4896)","Stewart, Mark & Martha",,,3010,"Palmtree Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3012,"Palmtree Drive","McKinney","TX",75070,"3012 Palmtree Drive (00270-4906)","Macklenar, Timothy & Linda Sue",,,3012,"Palmtree Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3014,"Palmtree Drive","McKinney","TX",75070,"3014 Palmtree Drive (00270-4919)","Urbik, Randall & Eileen",,,7300,"Henneman Way Apt #3201","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3016,"Palmtree Drive","McKinney","TX",75070,"3016 Palmtree Drive (02013-1025)","Warren, Dwayne Allen Sr. & Amy Lynn",,,3016,"Palmtree Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3018,"Palmtree Drive","McKinney","TX",75070,"3018 Palmtree Drive (00270-4935)","Campos, Josef",,,3018,"Palmtree Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3100,"Cactus Drive","McKinney","TX",75070,"3100 Cactus Drive (00270-7961)","Bragg, Joe & Amy",,,3100,"Cactus Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3100,"Palmtree Drive","McKinney","TX",75070,"3100 Palmtree Drive (00288-4350)","Trochez, Elizabeth",,,3100,"Palmtree Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3101,"Cactus Drive","McKinney","TX",75070,"3101 Cactus Drive (00270-7958)","Lanz, Darrell & Kimberly",,,3101,"Cactus Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3102,"Cactus Drive","McKinney","TX",75070,"3102 Cactus Drive (02014-0514)","Lane Thom LTD",,,2828,"Fallon Drive","Sherman","TX",75090
+"Eldorado Heights Phase 1 HOA, Inc.",3102,"Palmtree Drive","McKinney","TX",75070,"3102 Palmtree Drive (00274-9521)","Linville, Michelle","(214) 529-3825","mlinville08@hotmail.com",3102,"Palmtree Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3103,"Cactus Drive","McKinney","TX",75070,"3103 Cactus Drive (02015-0511)","Sabrina F. Campbell",,,3103,"Cactus Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3104,"Cactus Drive","McKinney","TX",75070,"3104 Cactus Drive (00270-7987)","Phillips, David & Alisa",,,3104,"Cactus Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3104,"Palmtree Drive","McKinney","TX",75070,"3104 Palmtree Drive (02014-0319)","Zillur & Rifat Rahman",,,6908,"Sharps Drive","Plano","TX",75023
+"Eldorado Heights Phase 1 HOA, Inc.",3105,"Cactus Drive","McKinney","TX",75070,"3105 Cactus Drive (00270-7770)","Pfeill, Keith & Kristin",,,3105,"Cactus Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3106,"Cactus Drive","McKinney","TX",75070,"3106 Cactus Drive (00270-7990)","Black, David",,,3106,"Cactus Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3106,"Palmtree Drive","McKinney","TX",75070,"3106 Palmtree Drive (02012-0910)","Hedge, Vernon & Martha",,,3106,"Palmtree Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3107,"Cactus Drive","McKinney","TX",75070,"3107 Cactus Drive (02014-1215)","Chau, Terry & Ning Sin",,,3107,"Cactus Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3108,"Cactus Drive","McKinney","TX",75070,"3108 Cactus Drive (00270-8009)","Schulz, Steven & Deborah",,,3108,"Cactus Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3108,"Palmtree Drive","McKinney","TX",75070,"3108 Palmtree Drive (02017-0519)","Matthew Myers Murphy & Jiajing Li",,,3108,"Palmtree Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3109,"Cactus Drive","McKinney","TX",75070,"3109 Cactus Drive (02014-0819)","Yu Su & Letian Weng",,,3605,"Salford Drive","Plano","TX",75025
+"Eldorado Heights Phase 1 HOA, Inc.",3110,"Cactus Drive","McKinney","TX",75070,"3110 Cactus Drive (02017-0620)","Samantha N. Barrera",,,3110,"Cactus Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3111,"Cactus Drive","McKinney","TX",75070,"3111 Cactus Drive (02014-1028)","Carol Marie Baker",,,3111,"Cactus Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3112,"Cactus Drive","McKinney","TX",75070,"3112 Cactus Drive (2012-0002)","Mark D. Matthews",,,3112,"Cactus Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3113,"Cactus Drive","McKinney","TX",75070,"3113 Cactus Drive (00275-6792)","Zavala, Kaz",,,3113,"Cactus Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3114,"Cactus Drive","McKinney","TX",75070,"3114 Cactus Drive (02013-0626)","Sharon A. Brown",,,3114,"Cactus Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3115,"Cactus Drive","McKinney","TX",75070,"3115 Cactus Drive (00270-7725)","Beasley, Linda",,,3115,"Cactus Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3116,"Cactus Drive","McKinney","TX",75070,"3116 Cactus Drive (00270-8041)","Hook, Lance & Michelle",,"michellehook@sbcglobal.net",3116,"Cactus Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3117,"Cactus Drive","McKinney","TX",75070,"3117 Cactus Drive (00270-7712)","Hines, Larry & Virginia",,,3117,"Cactus Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3119,"Cactus Drive","McKinney","TX",75070,"3119 Cactus Drive (02013-1206)","Erik J. & Leilany Garma",,,3119,"Cactus Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3121,"Cactus Drive","McKinney","TX",75070,"3121 Cactus Drive (00270-7699)","Rahman, Mashiur",,,3121,"Cactus Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3123,"Cactus Drive","McKinney","TX",75070,"3123 Cactus Drive (02013-0124)","David Mark & Sandra K. White",,,5640,"Fox Chase Ln","McKinney","TX",75071
+"Eldorado Heights Phase 1 HOA, Inc.",3125,"Cactus Drive","McKinney","TX",75070,"3125 Cactus Drive (02013-0604)","American Homes  4 Rent","(702) 960-1702","hoa@ah4r.com",280,"ilot Road Suite 200-AM","Las Vegas","NV",89119
+"Eldorado Heights Phase 1 HOA, Inc.",3127,"Cactus Drive","McKinney","TX",75070,"3127 Cactus Drive (02016-0809)","James and Angela Patillo",,,3127,"Cactus Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3200,"Palmtree Drive","McKinney","TX",75070,"3200 Palmtree Drive (02015-0331)","Jeff Allen & Alysha Emily Carse",,,3200,"Palmtree Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3200,"Tansy Court","McKinney","TX",75070,"3200 Tansy Court (02015-0720)","Ronnie J. & Laurie Harris",,,3200,"Tansy Court","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3200,"Weeping Willow Court","McKinney","TX",75070,"3200 Weeping Willow Court (00270-6784)","Eatherly, Jerry C. & Dana L.",,,3200,"Weeping Willow Court","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3201,"Juniper Drive","McKinney","TX",75070,"3201 Juniper Drive (00270-6289)","Dobner, Thomas & Barbara",,"thomas_dobner@yahoo.com",3201,"Juniper Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3201,"Orchid Drive","McKinney","TX",75070,"3201 Orchid Drive (00270-6386)","Garonzik, Gary & Shannon",,,3201,"Orchid Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3201,"Palmtree Drive","McKinney","TX",75070,"3201 Palmtree Drive (02012-1207)","Gentry, Evan W & Tara A",,,3201,"Palmtree Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3201,"Tansy Court","McKinney","TX",75070,"3201 Tansy Court (02015-0720)","Michael P. Whitehead",,,3201,"Tansy Court","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3201,"Weeping Willow Court","McKinney","TX",75070,"3201 Weeping Willow Court (00270-6810)","Wilson, Wayne & Debbie",,,3201,"Weeping Willow Court","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3202,"Juniper Drive","McKinney","TX",75070,"3202 Juniper Drive (00270-6674)","Gaus, Robert & Janet",,,3202,"Juniper Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3202,"Tansy Court","McKinney","TX",75070,"3202 Tansy Court (00270-5112)","Marshall, Eileen","(469) 853-2257","jimmorris70@gmail.com",3202,"Tansy Court","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3202,"Weeping Willow Court","McKinney","TX",75070,"3202 Weeping Willow Court (02014-0725)","Norman R & Diane A Kessel","(214) 235-5619","stormin4@tx.rr.com",3202,"Weeping Willow Court","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3203,"Juniper Drive","McKinney","TX",75070,"3203 Juniper Drive (02016-0407)","Ronald C.  & Staci L. Westbury",,,3203,"Juniper Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3203,"Orchid Drive","McKinney","TX",75070,"3203 Orchid Drive (00270-6425)","Flinchum, Eddie S.",,,3203,"Orchid Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3203,"Palmtree Drive","McKinney","TX",75070,"3203 Palmtree Drive (00270-5756)","Swartout, Mary",,,3203,"Palmtree Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3203,"Tansy Court","McKinney","TX",75070,"3203 Tansy Court (00275-1454)","Shields, Gregory & Carla",,,3203,"Tansy Court","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3203,"Weeping Willow Court","McKinney","TX",75070,"3203 Weeping Willow Court (02013-1015)","Felix, Adam & Kristin Taylor",,,3203,"Weeping Willow Court","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3204,"Juniper Drive","McKinney","TX",75070,"3204 Juniper Drive (02014 - 1006)","Rhonda Hutchison",,,3204,"Juniper Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3204,"Tansy Court","McKinney","TX",75070,"3204 Tansy Court (00270-5125)","Gassett, Keith & Mary",,,3204,"Tansy Court","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3204,"Weeping Willow Court","McKinney","TX",75070,"3204 Weeping Willow Court ( 02015-0515)","Dana Coker Kingdon",,,4410,"Monte Vista Lane","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3205,"Juniper Drive","McKinney","TX",75070,"3205 Juniper Drive (02014-0730)","Aplin, Dustin & Gina",,,3205,"Juniper Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3205,"Orchid Drive","McKinney","TX",75070,"3205 Orchid Drive (02017-0309)","Jennie Larkin",,,2029,"Artemis Ct","Allen","TX",75013
+"Eldorado Heights Phase 1 HOA, Inc.",3205,"Palmtree Drive","McKinney","TX",75070,"3205 Palmtree Drive (00270-5769)","Jones, Ralph","(469) 247-8009",,3205,"Palmtree Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3205,"Tansy Court","McKinney","TX",75070,"3205 Tansy Court (00270-5002)","Michael Briggs",,,3205,"Tansy Court","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3205,"Weeping Willow Court","McKinney","TX",75070,"3205 Weeping Willow Court (00270-6865)","Dotter, Joshua S. & Sarah N.",,"jdotter@tx.rr.com",3205,"Weeping Willow Court","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3206,"Juniper Drive","McKinney","TX",75070,"3206 Juniper Drive (02017-1208)","Lino  Ornano",,,3206,"Juniper Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3206,"Weeping Willow Court","McKinney","TX",75070,"3206 Weeping Willow Court (00270-6690)","Fernandez, Leticia",,,3206,"Weeping Willow Court","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3207,"Juniper Drive","McKinney","TX",75070,"3207 Juniper Drive (00270-6315)","Haddad, Nihad",,,3207,"Juniper Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3207,"Orchid Drive","McKinney","TX",75070,"3207 Orchid Drive (02017-1027)","Brandiro Assets LLC",,,7200,"Oakbury Lane","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3207,"Palmtree Drive","McKinney","TX",75070,"3207 Palmtree Drive (00270-5772)","Foreman, Malcolm & Robyn",,,3207,"Palmtree Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3207,"Weeping Willow Court","McKinney","TX",75070,"3207 Weeping Willow Court (00270-6894)","Petersen, Kevin D.",,,3207,"Weeping Willow Court","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3208,"Juniper Drive","McKinney","TX",75070,"3208 Juniper Drive (02013-0104)","Jordan Zier","(817) 714-8970","jordan.zier@gmail.com",209,"ilver Oak Drive","Grapevine","TX",76051
+"Eldorado Heights Phase 1 HOA, Inc.",3208,"Weeping Willow Court","McKinney","TX",75070,"3208 Weeping Willow Court (00270-6661)","Compton, Denise L.",,,3208,"Weeping Willow Court","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3209,"Juniper Drive","McKinney","TX",75070,"3209 Juniper Drive (00270-6328)","Fuller, Michael & Marcela",,,3209,"Juniper Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3209,"Orchid Drive","McKinney","TX",75070,"3209 Orchid Drive (02014-0724)","Julia A. Liaci & James P Carroll",,,3209,"Orchid Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3209,"Palmtree Drive","McKinney","TX",75070,"3209 Palmtree Drive (00270-5785)","Rawlings, Gary & Claudia","(469) 742-8979",,3209,"Palmtree Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3209,"Weeping Willow Court","McKinney","TX",75070,"3209 Weeping Willow Court (02013-0408)","Robert and Jennifer Bozeman",,,4705,"Grant Court","Frisco","TX",75035
+"Eldorado Heights Phase 1 HOA, Inc.",3210,"Juniper Drive","McKinney","TX",75070,"3210 Juniper Drive (00270-6616)","Pilgrim, Ginger",,,3210,"Juniper Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3210,"Weeping Willow Court","McKinney","TX",75070,"3210 Weeping Willow Court (00294-5493)","Mathew & Jennifer Henthorn",,"jen_ah@hotmail.com",3210,"Weeping Willow Court","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3211,"Juniper Drive","McKinney","TX",75070,"3211 Juniper Drive (02014-0716)","Lane Thom, LTD.",,,2828,"Fallon Drive","Sherman","TX",75090
+"Eldorado Heights Phase 1 HOA, Inc.",3211,"Orchid Drive","McKinney","TX",75070,"3211 Orchid Drive (00270-6483)","Burke, Kenneth & Sandra",,,3211,"Orchid Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3211,"Weeping Willow Court","McKinney","TX",75070,"3211 Weeping Willow Court (02016-0907)","Docmo, LLC",,,8101,"Sutherland Lane","Plano","TX",75025
+"Eldorado Heights Phase 1 HOA, Inc.",3212,"Juniper Drive","McKinney","TX",75070,"3212 Juniper Drive (02017-0208)","John & Rebekah E Thompson",,,3212,"Juniper Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3212,"Weeping Willow Court","McKinney","TX",75070,"3212 Weeping Willow Court (02012-1021)","Kitchens, Michele L",,,3212,"Weeping Willow Court","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3213,"Juniper Drive","McKinney","TX",75070,"3213 Juniper Drive (00270-6360)","Rogge, Scott & Michelle",,,3213,"Juniper Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3213,"Orchid Drive","McKinney","TX",75070,"3213 Orchid Drive (00270-6496)","Perez, Robert & Angela",,,3213,"Orchid Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3213,"Weeping Willow Court","McKinney","TX",75070,"3213 Weeping Willow Court (00270-6959)","Graham, Rosaland",,,1412," Sparrow Hill Dr.","Little Elm","TX",75068
+"Eldorado Heights Phase 1 HOA, Inc.",3214,"Juniper Drive","McKinney","TX",75070,"3214 Juniper Drive (00270-6577)","Behrends, Thomas & Angela",,,3214,"Juniper Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3215,"Juniper Drive","McKinney","TX",75070,"3215 Juniper Drive (00277-3542)","Graber, Jeffrey L & Thu H",,,3215,"Juniper Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3215,"Orchid Drive","McKinney","TX",75070,"3215 Orchid Drive (02014 - 0402)","Gregory T. Deike",,,3215,"Orchid Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3215,"Weeping Willow Court","McKinney","TX",75070,"3215 Weeping Willow Court (00270-6975)","Reci,  J. & G. McLaughlin",,,3215,"Weeping Willow Court","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3216,"Juniper Drive","McKinney","TX",75070,"3216 Juniper Drive (02017-0127)","The Lee Joint Grantor's Trust",,,"PO B","x 251529","Plano","TX",75025
+"Eldorado Heights Phase 1 HOA, Inc.",3217,"Orchid Drive","McKinney","TX",75070,"3217 Orchid Drive (00270-6535)","Savarino, Joseph & Mary",,,3217,"Orchid Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3217,"Weeping Willow Court","McKinney","TX",75070,"3217 Weeping Willow Court (02016-0630)","Robert J. Dunshee",,,3217,"Weeping Willow Court","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3219,"Orchid Drive","McKinney","TX",75070,"3219 Orchid Drive (00270-6548)","Herz, Manfred & Ingrid",,,3219,"Orchid Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3219,"Weeping Willow Court","McKinney","TX",75070,"3219 Weeping Willow Court (00270-7084)","Dauper, Todd J.",,,3219,"Weeping Willow Court","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3221,"Weeping Willow Court","McKinney","TX",75070,"3221 Weeping Willow Court (00270-7097)","Partain, Dari",,,3221,"Weeping Willow Court","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3223,"Weeping Willow Court","McKinney","TX",75070,"3223 Weeping Willow Court (02013-0823)","Wood, Carolyn A.",,,2606,"Saratoga","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3225,"Weeping Willow Court","McKinney","TX",75070,"3225 Weeping Willow Court (02016-0919)","Julia Denham & Aaron Park",,,3225,"Weeping Willow Court","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3301,"Palmtree Drive","McKinney","TX",75070,"3301 Palmtree Drive (00291-9924)","James Ulmer",,,3301,"Palmtree Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3303,"Palmtree Drive","McKinney","TX",75070,"3303 Palmtree Drive (00270-5808)","Kintz, Kevin & Jane",,,7907,"Meadow Glen Drive","McKinney","TX",75071
+"Eldorado Heights Phase 1 HOA, Inc.",3305,"Palmtree Drive","McKinney","TX",75070,"3305 Palmtree Drive (00290-7172)","Hou, Yanxin",,,4340,"Twin Post Rd","Dallas","TX",75244
+"Eldorado Heights Phase 1 HOA, Inc.",3307,"Palmtree Drive","McKinney","TX",75070,"3307 Palmtree Drive (00270-5824)","Ewing, Ray & Carolyn",,,3307,"Palmtree Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3309,"Palmtree Drive","McKinney","TX",75070,"3309 Palmtree Drive (00270-5837)","Brown, Tina",,,3001,"S Hardin Blvd Ste 110-310","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3400,"Palmtree Drive","McKinney","TX",75070,"3400 Palmtree Drive (02017-1128)","James F Mullen Jr",,,3400,"Palmtree Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3401,"Palmtree Drive","McKinney","TX",75070,"3401 Palmtree Drive (00270-8229)","Miller, Edward & Anna",,,3401,"Palmtree Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3402,"Palm Tree Drive","McKinney","TX",75070,"3402 Palm Tree Drive (02017-0721)","Xiaobeni Yu & Binlin Qu",,,3402,"Palm Tree Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3403,"Palmtree Drive","McKinney","TX",75070,"3403 Palmtree Drive (00270-8216)","LeJeune, Todd & Vivian",,,3403,"Palmtree Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3404,"Palmtree Drive","McKinney","TX",75070,"3404 Palmtree Drive (00270-8070)","Billings, Michael & Cheryl",,,3404,"Palmtree Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3405,"Palm Tree Drive","McKinney","TX",75070,"3405 Palm Tree Drive (02017-0804)","SH Kay Properties LLC",,,5300,"Spice Wood Lane","Frisco","TX",75034
+"Eldorado Heights Phase 1 HOA, Inc.",3406,"Palmtree Drive","McKinney","TX",75070,"3406 Palmtree Drive (02017-0413)","Alexander Labori",,,3406,"Palmtree Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3407,"Palmtree Drive","McKinney","TX",75070,"3407 Palmtree Drive (02015-1214)","Bobby & Brenda Marek",,,3407,"Palmtree Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3408,"Palmtree Drive","McKinney","TX",75070,"3408 Palmtree Drive (02014-0910)","Starwood Waypoint Homes Partnership, LP",,,8665,"E. Hartford Dr. Ste 200","Scottsdale","AZ",85255
+"Eldorado Heights Phase 1 HOA, Inc.",3409,"Palmtree Drive","McKinney","TX",75070,"3409 Palmtree Drive (00270-8180)","Foster, Christopher & Risa",,,3409,"Palmtree Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3410,"Palmtree Drive","McKinney","TX",75070,"3410 Palmtree Drive (00270-8106)","Connell, Steven & Marie",,,3410,"Palmtree Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3411,"Palmtree Drive","McKinney","TX",75070,"3411 Palmtree Drive (02015-0709)","Diane C. Samuels",,,3411,"Palmtree Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3412,"Palm Tree Drive","McKinney","TX",75070,"3412 Palm Tree Drive (02016-1109)","Mitch & Gerri Carter",,,3412,"Palm Tree Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3413,"Palmtree Drive","McKinney","TX",75070,"3413 Palmtree Drive (00270-8164)","Kitch, Kevin & Kelly",,,3413,"Palmtree Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3414,"Palmtree Drive","McKinney","TX",75070,"3414 Palmtree Drive (00270-8122)","Brooks, Roger E.",,,3414,"Palmtree Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3415,"Palmtree Drive","McKinney","TX",75070,"3415 Palmtree Drive (00270-8151)","Jermyn, David C.",,,3415,"Palmtree Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3416,"Palm Tree Drive","McKinney","TX",75070,"3416 Palm Tree Drive (02017-0717)","Jay & Rachael Kent",,,3416,"Palm Tree Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3417,"Palmtree Drive","McKinney","TX",75070,"3417 Palmtree Drive (02012-1109)","Trevor Mitchel Houston",,,3417,"Palmtree Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3700,"Columbus Drive","McKinney","TX",75070,"3700 Columbus Drive (00270-7550)","Ledezma, Mario & Blanca",,,3700,"Columbus Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3702,"Columbus Drive","McKinney","TX",75070,"3702 Columbus Drive (02014-0318)","Narendra Kumar",,,908,"iltmoore Court","Allen","TX",75013
+"Eldorado Heights Phase 1 HOA, Inc.",3800,"Columbus Drive","McKinney","TX",75070,"3800 Columbus Drive (02013-0329)","Charles and Katherine Burris",,,3800,"Columbus Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3800,"Rose Ct","McKinney","TX",75070,"3800 Rose Ct (00275-2440)","Law, Wesley B",,,3800,"Rose Ct","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3800,"Sage Drive","McKinney","TX",75070,"3800 Sage Drive (02013-0827)","Chen, Manchun",,,1565,"Theo Drive","San Jose","CA",95131
+"Eldorado Heights Phase 1 HOA, Inc.",3801,"Rose Ct","McKinney","TX",75070,"3801 Rose Ct (02013-0619)","BDNL Family Revocable Trust",,,"PO B","x 251743","Plano","TX",75025
+"Eldorado Heights Phase 1 HOA, Inc.",3801,"Sage Drive","McKinney","TX",75070,"3801 Sage Drive (02014-1209)","Matthew Paul Sowards","(214) 927-9653","tasha.sowards@gmail.com",3801,"Sage Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3802,"Columbus Drive","McKinney","TX",75070,"3802 Columbus Drive (00270-8986)","Krauss, Gregory",,,3802,"Columbus Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3802,"Rose Court","McKinney","TX",75070,"3802 Rose Court (02016 - 0311)","Amanda L. Johns",,,3802,"Rose Court","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3802,"Sage Drive","McKinney","TX",75070,"3802 Sage Drive (00288-3791)","Hight, Jeff & Alicia","(563) 271-4782","cakeladyalicia@yahoo.com",3802,"Sage Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3803,"Rose Ct","McKinney","TX",75070,"3803 Rose Ct (00270-8452)","Dietz, Rebecca",,,5900,"Polo Club Drive","Arlington","TX",76017
+"Eldorado Heights Phase 1 HOA, Inc.",3803,"Sage Drive","McKinney","TX",75070,"3803 Sage Drive (02017-0111)","Joel Ernest & Valerie A. Ronn",,,3803,"Sage Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3804,"Columbus Drive","McKinney","TX",75070,"3804 Columbus Drive (02013-0620)","Scott I. & Tanya N. McKeen",,,3804,"Columbus Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3804,"Rose Ct","McKinney","TX",75070,"3804 Rose Ct (00270-8287)","Herbst, C. Russell & Debbie",,"herbie5423@sbcglobal.net",3804,"Rose Ct","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3804,"Sage Drive","McKinney","TX",75070,"3804 Sage Drive (00271-1423)","Brozewicz, Anthony & Alica","(972) 522-9276","tonybrozewicz@yahoo.com",3804,"Sage Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3805,"Rose Ct","McKinney","TX",75070,"3805 Rose Ct (00270-8478)","Welsh, Thomas & Judith",,,3805,"Rose Ct","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3805,"Sage Drive","McKinney","TX",75070,"3805 Sage Drive (00270-9723)","American Homes 4 Rent","(702) 960-1720","hoa@ah4r.com",280,"ilot Road Suite 200-AM","Las Vegas","NV",89119
+"Eldorado Heights Phase 1 HOA, Inc.",3806,"Columbus Drive","McKinney","TX",75070,"3806 Columbus Drive (00270-8944)","Yeerelly, Sanjay",,,7005,"Los Padres Pl","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3806,"Rose Ct","McKinney","TX",75070,"3806 Rose Ct (00270-8300)","Oldham, Dwight  C. & Janet C.",,,3806,"Rose Ct","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3806,"Sage Drive","McKinney","TX",75070,"3806 Sage Drive (00287-5204)","Apgar, Stewart & Brooke","(469) 951-3715","brooke.apgar@yahoo.com",3806,"Sage Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3807,"Rose Ct","McKinney","TX",75070,"3807 Rose Ct (02013-0709)","Mahesh Govindappa","(408) 667-8072","myhaso@gmail.com",3484,"Warburton Ave Apt 16","Santa Clara","CA",95051
+"Eldorado Heights Phase 1 HOA, Inc.",3807,"Sage Drive","McKinney","TX",75070,"3807 Sage Drive (02017-0811)","Staci M Laiji",,,3807,"Sage Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3808,"Columbus Drive","McKinney","TX",75070,"3808 Columbus Drive (00270-8892)","Garganigo, A. & M Mitra","(214) 592-0114",,3808,"Columbus Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3808,"Rose Ct","McKinney","TX",75070,"3808 Rose Ct (00270-8339)","Byrd, David & Jennifer",,,3808,"Rose Ct","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3808,"Sage Drive","McKinney","TX",75070,"3808 Sage Drive (00271-1465)","Wilson, Robert D. & Tricia","(469) 243-0536","wilsonfamily6@att.net",3808,"Sage Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3809,"Rose Ct","McKinney","TX",75070,"3809 Rose Ct (00292-8119)","Rebecca Moss",,,3809,"Rose Ct","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3809,"Sage Drive","McKinney","TX",75070,"3809 Sage Drive (02013-1204)","Charles B. Nixon","(972) 896-1470",,3809,"Sage Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3810,"Columbus Drive","McKinney","TX",75070,"3810 Columbus Drive (00270-8876)","Westbrook, Robert","(972) 880-6616","schlerto@gmail.com",3810,"Columbus Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3810,"Rose Ct","McKinney","TX",75070,"3810 Rose Ct (00275-7937)","Gough, John A. & Rebeca G.",,"john.gough@att.net",3810,"Rose Ct","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3811,"Rose Ct","McKinney","TX",75070,"3811 Rose Ct (00285-3035)","Martinez, M. & A. Jr",,,3811,"Rose Ct","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3811,"Sage Drive","McKinney","TX",75070,"3811 Sage Drive (00270-9668)","Conrey, Carolyn",,,3811,"Sage Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3812,"Columbus Drive","McKinney","TX",75070,"3812 Columbus Drive (02017-0804)","Nitza I & Wilbert J Louis",,,3812,"Columbus Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3813,"Rose Court","McKinney","TX",75070,"3813 Rose Court (02016-0225)","Sarkawt M. Ameen & Shadan Sharif",,,205,"enton Dr,
+Apt 3101","Allen","TX",75013
+"Eldorado Heights Phase 1 HOA, Inc.",3813,"Sage Drive","McKinney","TX",75070,"3813 Sage Drive (00270-9626)","Graves, Tasaunia & Marcus D.","(214) 385-9796","tgraves6@gmail.com",3813,"Sage Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3900,"Columbus Drive","McKinney","TX",75070,"3900 Columbus Drive (00270-8821)","Bohl, Zac",,"kellybohl@gmail.com",3900,"Columbus Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3900,"Rose Court","McKinney","TX",75070,"3900 Rose Court (02016-0505)","Stephen Tyner & Olesya Sukhareva",,,3900,"Rose Court","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3901,"Rose Court","McKinney","TX",75070,"3901 Rose Court (02018-0126)","Valquest, Inc.",,,1605,"Pickwick Ln","Richardson","TX",75082
+"Eldorado Heights Phase 1 HOA, Inc.",3901,"Sage Drive","McKinney","TX",75070,"3901 Sage Drive (02013-0822)","Wessel, David & Marci",,,3901,"Sage Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3902,"Columbus Drive","McKinney","TX",75070,"3902 Columbus Drive (02016-0525)","Qian Lin McRee",,,5440,"Buckskin Drive","The Colony","TX",75056
+"Eldorado Heights Phase 1 HOA, Inc.",3902,"Rose Ct","McKinney","TX",75070,"3902 Rose Ct (00292-8106)","Dwyer, Victor A. & Judy A.",,,2705,"Woodson Dr","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3903,"Rose Court","McKinney","TX",75070,"3903 Rose Court (02017-0331)","Raul M. Baptiste",,,7007,"Windhaven Pkwy #16","The Colony","TX",75056
+"Eldorado Heights Phase 1 HOA, Inc.",3903,"Sage Drive","McKinney","TX",75070,"3903 Sage Drive (00292-4087)","Rejing Zhou & Hui Jiang",,,4656,"Old Pound Drive","Plano","TX",75024
+"Eldorado Heights Phase 1 HOA, Inc.",3904,"Columbus Drive","McKinney","TX",75070,"3904 Columbus Drive (00270-8737)","Frech, Nargi P.  & David S.",,,4552,"Mimosa Drive","Yorba Linda","CA",92886
+"Eldorado Heights Phase 1 HOA, Inc.",3904,"Rose Court","McKinney","TX",75070,"3904 Rose Court (02016-0726)","Robert and Erica Wright",,,3904,"Rose Court","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3905,"Rose Court","McKinney","TX",75070,"3905 Rose Court (02017-0608)","Jennifer G Bradley",,,3905,"Rose Court","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3905,"Sage Drive","McKinney","TX",75070,"3905 Sage Drive (02016-0414)","Ashek Faizullah & Saranaz Rahman",,,3905,"Sage Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3906,"Rose Ct","McKinney","TX",75070,"3906 Rose Ct (00270-8423)","Billingly, Shawn S.",,,3906,"Rose Ct","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3907,"Rose Ct","McKinney","TX",75070,"3907 Rose Ct (00270-8630)","Nguyen, Hat & Quynh Chi Lihn Vo",,,3907,"Rose Ct","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",3909,"Rose Ct","McKinney","TX",75070,"3909 Rose Ct (00270-8672)","Aboah, Ebenezer",,,3909,"Rose Ct","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4100,"English Ivy Drive","McKinney","TX",75070,"4100 English Ivy Drive (00270-6043)","Mathews, Prasad & Cheerie",,"A.storyteller@me.com",4100,"English Ivy Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4100,"Holly Drive","McKinney","TX",75070,"4100 Holly Drive (00290-7156)","William Docekal",,,4408,"Shadywood","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4100,"Honeysuckle Drive","McKinney","TX",75070,"4100 Honeysuckle Drive (00270-6263)","Mack, Kim & Christine",,,4100,"Honeysuckle Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4101,"English Ivy Drive","McKinney","TX",75070,"4101 English Ivy Drive (00270-6069)","Brown, Kenneth W & Gail Dean","(972) 562-0605",,4101,"English Ivy Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4101,"Holly Drive","McKinney","TX",75070,"4101 Holly Drive (00270-8481)","Christian, Paul",,,3725,"Vienna St","Irving","TX",75038
+"Eldorado Heights Phase 1 HOA, Inc.",4102,"English Ivy Drive","McKinney","TX",75070,"4102 English Ivy Drive (2016-0329)","Michelle Cheri Ellis & Brian Whitney Remhild",,,4102,"English Ivy Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4102,"Honeysuckle Drive","McKinney","TX",75070,"4102 Honeysuckle Drive (0017-0519)","Alex Ray & Hannah Marie Willard",,,4102,"Honeysuckle Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4103,"English Ivy Drive","McKinney","TX",75070,"4103 English Ivy Drive (00270-6072)","Allberg, Lloyd & Mary",,,4103,"English Ivy Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4104,"English Ivy Drive","McKinney","TX",75070,"4104 English Ivy Drive (00284-0556)","Khan, Rehana Y & Rahal I","(214) 881-4108","khanrahal@hotmail.com",4104,"English Ivy Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4104,"Holly Drive","McKinney","TX",75070,"4104 Holly Drive (00274-4911)","Yang, Frank & Zengyuan",,,4104,"Holly Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4104,"Honeysuckle Drive","McKinney","TX",75070,"4104 Honeysuckle Drive (02017-1215)","Earline Brown",,,4104,"Honeysuckle Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4105,"English Ivy Drive","McKinney","TX",75070,"4105 English Ivy Drive (00270-6098)","Barnhill, Gary & Lori",,,4105,"English Ivy Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4105,"Holly Drive","McKinney","TX",75070,"4105 Holly Drive (02016-0527)","Travis George & Terri Dale Gaber",,,4105,"Holly Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4106,"English Ivy Drive","McKinney","TX",75070,"4106 English Ivy Drive (00289-2614)","American Homes  4 Rent","(702) 960-1720","hoa@ah4r.com",280,"ilot Road Suite 200-AM","Las Vegas","NV",89119
+"Eldorado Heights Phase 1 HOA, Inc.",4106,"Honeysuckle Drive","McKinney","TX",75070,"4106 Honeysuckle Drive (02013-0802)","Yan, Xiao & Lan Li",,,3204,"Mill Ridge Drive","Plano","TX",75025
+"Eldorado Heights Phase 1 HOA, Inc.",4107,"English Ivy Drive","McKinney","TX",75070,"4107 English Ivy Drive (00270-6108)","Aridi, Hissham & Sahar",,,4107,"English Ivy Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4108,"English Ivy Drive","McKinney","TX",75070,"4108 English Ivy Drive (02018-0108)","Amir Sabet Sarvestani & Delaram Peimani",,,4108,"English Ivy Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4108,"Holly Drive","McKinney","TX",75070,"4108 Holly Drive (00270-8407)","Elliott, Sam & Susan",,,1090," Thomasville Lane","Frisco","TX",75033
+"Eldorado Heights Phase 1 HOA, Inc.",4108,"Honeysuckle Drive","McKinney","TX",75070,"4108 Honeysuckle Drive (00270-6182)","May, Beatrice",,,4108,"Honeysuckle Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4109,"English Ivy Drive","McKinney","TX",75070,"4109 English Ivy Drive (00270-6124)","Tran, Dan",,,3705,"Landmark Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4109,"Holly Drive","McKinney","TX",75070,"4109 Holly Drive (00270-8520)","Reynolds, C. & Howerton, S.","(469) 766-2598","cpreynolds@sbcglobal.net",4109,"Holly Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4110,"English Ivy Drive","McKinney","TX",75070,"4110 English Ivy Drive (00270-5853)","Coop, Kristin Anne",,,4110,"English Ivy Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4111,"English Ivy Drive","McKinney","TX",75070,"4111 English Ivy Drive (00270-6137)","Hall-Streater, Catherine","(903) 815-2528","Cathall67@hotmail.com",4111,"English Ivy Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4112,"English Ivy Drive","McKinney","TX",75070,"4112 English Ivy Drive (00270-5840)","Jones, Robert & Sylvia","(214) 733-7716","syljones79@att.net",4112,"English Ivy Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4112,"Holly Drive","McKinney","TX",75070,"4112 Holly Drive (00270-8384)","Hamilton, David & Martha",,,4112,"Holly Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4113,"English Ivy Drive","McKinney","TX",75070,"4113 English Ivy Drive (00270-6166)","Curtis, Suzanne","(214) 662-8172","scisathome@hotmail.com",4113,"English Ivy Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4113,"Holly Drive","McKinney","TX",75070,"4113 Holly Drive (02015-1228)","Robert Brian and Jennifer Louise Smith",,,4113,"Holly Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4116,"Holly Drive","McKinney","TX",75070,"4116 Holly Drive (02017-0512)","Monica Madadi",,,4116,"Holly Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4117,"Holly Drive","McKinney","TX",75070,"4117 Holly Drive (00290-0739)","Yowell, Ryan Mason",,,4117,"Holly Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4121,"Holly Drive","McKinney","TX",75070,"4121 Holly Drive (00270-8588)","D. Brice & E. Garrison",,,4121,"Holly Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4200,"English Ivy Drive","McKinney","TX",75070,"4200 English Ivy Drive (00270-4647)","Wilkicki, Marcia J.",,,4200,"English Ivy Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4200,"Holly Drive","McKinney","TX",75070,"4200 Holly Drive (00270-8245)","Flores, Alfredo & Alicia",,,4200,"Holly Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4200,"Honeysuckle Drive","McKinney","TX",75070,"4200 Honeysuckle Drive (00270-5510)","Baehner, William & Elizabeth",,,4200,"Honeysuckle Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4200,"Magnolia Drive","McKinney","TX",75070,"4200 Magnolia Drive (00270-4702)","Ake, Terry & Jessica",,,4200,"Magnolia Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4200,"Primrose Drive","McKinney","TX",75070,"4200 Primrose Drive (00270-5675)","Rodarte, A. & M.",,,4200,"Primrose Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4201,"English Ivy Drive","McKinney","TX",75070,"4201 English Ivy Drive (00270-5329)","Burns, Cynthia A.",,,4201,"English Ivy Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4201,"Holly Drive","McKinney","TX",75070,"4201 Holly Drive (00270-8342)","Fraser,  Cara",,,4201,"Holly Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4201,"Honeysuckle Drive","McKinney","TX",75070,"4201 Honeysuckle Drive (00270-5523)","Mounger, Lynora & Ray",,,4201,"Honeysuckle Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4201,"Primrose Drive","McKinney","TX",75070,"4201 Primrose Drive (00270-5688)","Jennings, Dustin & Lori",,,4201,"Primrose Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4202,"English Ivy Drive","McKinney","TX",75070,"4202 English Ivy Drive (00270-4689)","Hill, James","(214) 684-9356",,4202,"English Ivy Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4202,"Holly Drive","McKinney","TX",75070,"4202 Holly Drive (00270-8258)","Song, Peter & Hyun Kyung",,,4202,"Holly Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4202,"Honeysuckle Drive","McKinney","TX",75070,"4202 Honeysuckle Drive (00270-5507)","Dharamraj, Danney & Hannah",,,4202,"Honeysuckle Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4202,"Magnolia Drive","McKinney","TX",75070,"4202 Magnolia Drive (00278-0904)","Christopher, Randy & Connie",,"Crc.christo@gmail.com","PO B","x 107","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4202,"Primrose Drive","McKinney","TX",75070,"4202 Primrose Drive (00270-5662)","Merritt, Matthew & Carol",,,4202,"Primrose Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4203,"English Ivy Drive","McKinney","TX",75070,"4203 English Ivy Drive (02015-1229)","Jamal S. & Sheilene A Creecy",,,4203,"English Ivy Drive","MCKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4203,"Holly Drive","McKinney","TX",75070,"4203 Holly Drive (00270-8326)","Lockhart, Kem",,,4203,"Holly Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4203,"Honeysuckle Drive","McKinney","TX",75070,"4203 Honeysuckle Drive (02014-0515)","Michael & Marley Goodwin",,,4203,"Honeysuckle Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4203,"Primrose Drive","McKinney","TX",75070,"4203 Primrose Drive (00270-5691)","Via, Mark",,,4203,"Primrose Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4204,"English Ivy Drive","McKinney","TX",75070,"4204 English Ivy Drive (00270-4692)","Pichot, C. Austin",,,4204,"English Ivy Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4204,"Holly Drive","McKinney","TX",75070,"4204 Holly Drive (02017-0324)","Glenn Michael Hudson",,,4204,"Holly Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4204,"Honeysuckle Drive","McKinney","TX",75070,"4204 Honeysuckle Drive (02016-0701)","Steven L. & Tracye L. Neill",,,4204,"Honeysuckle Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4204,"Magnolia Drive","McKinney","TX",75070,"4204 Magnolia Drive (02014-0625)","AH4R-TX2 LLC",,,3060," Agoura Rd Ste 200","Agoura Hills","CA",91301
+"Eldorado Heights Phase 1 HOA, Inc.",4204,"Primrose Drive","McKinney","TX",75070,"4204 Primrose Drive (02016-0310)","Richard Thomas & Emalie Carol Lott",,,4204,"Primrose Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4205,"English Ivy Drive","McKinney","TX",75070,"4205 English Ivy Drive (02014-1222)","Jill M. Richardson",,,4205,"English Ivy Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4205,"Holly Drive","McKinney","TX",75070,"4205 Holly Drive (00270-8313)","Ornelas, Irma & Mario","(972) 658-4126","irmao@careington.com",4205,"Holly Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4205,"Honeysuckle Drive","McKinney","TX",75070,"4205 Honeysuckle Drive (00270-5552)","Taggard, Melanie Love",,,4205,"Honeysuckle Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4205,"Primrose Drive","McKinney","TX",75070,"4205 Primrose Drive (02015-0720)","Forest and Bonnie Doyka",,,4205,"Primrose Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4206,"English Ivy Drive","McKinney","TX",75070,"4206 English Ivy Drive (00270-5251)","Deglandon, Phillip Todd & Joni Lynn",,,4206,"English Ivy Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4206,"Holly Drive","McKinney","TX",75070,"4206 Holly Drive (02015-0615)","William & Barbara Docekal",,,4408,"Shadywood","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4206,"Honeysuckle Drive","McKinney","TX",75070,"4206 Honeysuckle Drive (00270-5484)","Brown, David & Vicki",,,4206,"Honeysuckle Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4206,"Magnolia Drive","McKinney","TX",75070,"4206 Magnolia Drive (00270-4731)","Campbell, James","(214) 926-4790","mr4206@yahoo.com",4206,"Magnolia Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4206,"Primrose Drive","McKinney","TX",75070,"4206 Primrose Drive (00270-5646)","Eddy, Raymond",,,4206,"Primrose Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4207,"English Ivy Drive","McKinney","TX",75070,"4207 English Ivy Drive (00270-5358)","Frado, Marcia & Kenneth",,,4207,"English Ivy Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4207,"Honeysuckle Drive","McKinney","TX",75070,"4207 Honeysuckle Drive (02016-0725)","Brendan & Lori Desjardins",,,4207,"Honeysuckle Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4207,"Primrose Drive","McKinney","TX",75070,"4207 Primrose Drive (00270-5714)","Newburn, William & Melody","(972) 529-1545",,4207,"Primrose Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4208,"English Ivy Drive","McKinney","TX",75070,"4208 English Ivy Drive (02015-1009)","Craig Charles & Cecilia Isabel Vogel Fam. Lg Trust",,,4208,"English Ivy Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4208,"Honeysuckle Drive","McKinney","TX",75070,"4208 Honeysuckle Drive (02014-0411)","Daniel L.  Coats",,,4208,"Honeysuckle Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4208,"Magnolia Drive","McKinney","TX",75070,"4208 Magnolia Drive (00270-4744)","Heffington, Bob J.",,,4208,"Magnolia Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4208,"Primrose Drive","McKinney","TX",75070,"4208 Primrose Drive (02014-0618)","McKay, Kevin & Grete",,,4208,"Primrose Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4209,"English Ivy Drive","McKinney","TX",75070,"4209 English Ivy Drive (02014-0326)","Robert & Elizabeth Haddon","(214) 542-6548","robh913@gmail.com",4209,"English Ivy Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4209,"Honeysuckle Drive","McKinney","TX",75070,"4209 Honeysuckle Drive (00270-5578)","Merrell, Thomas & Carolyn",,,4209,"Honeysuckle Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4209,"Magnolia Drive","McKinney","TX",75070,"4209 Magnolia Drive (00270-5248)","Cason, Gary & Susan","(214) 674-4306","gwcason@yaho.com",4209,"Magnolia Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4209,"Primrose Drive","McKinney","TX",75070,"4209 Primrose Drive (02017-0426)","Dennis R. Gilliam",,,4209,"Primrose Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4210,"English Ivy Drive","McKinney","TX",75070,"4210 English Ivy Drive (00270-5277)","Green, Rachael",,,4210,"English Ivy Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4210,"Honeysuckle Drive","McKinney","TX",75070,"4210 Honeysuckle Drive (00270-5468)","Frederick, M. & A. Durham",,,2916," W Highway 44","Alice","TX",78332
+"Eldorado Heights Phase 1 HOA, Inc.",4210,"Magnolia Drive","McKinney","TX",75070,"4210 Magnolia Drive (02017-0818)","Michael & Judith Butler",,,1805," CR 421","Crossplains","TX",76443
+"Eldorado Heights Phase 1 HOA, Inc.",4210,"Primrose Drive","McKinney","TX",75070,"4210 Primrose Drive (02014-0828)","Angela R. Pharaoh",,,4210,"Primrose Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4211,"English Ivy Drive","McKinney","TX",75070,"4211 English Ivy Drive (00270-5374)","Helm, Danielle",,,4211,"English Ivy Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4211,"Honeysuckle Drive","McKinney","TX",75070,"4211 Honeysuckle Drive (02016-0211)","David Olshanksy & Jessica Talis",,,4211,"Honeysuckle Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4211,"Magnolia Drive","McKinney","TX",75070,"4211 Magnolia Drive (00270-5235)","Pavolonis, Keith & Andrea",,"keithandcookie@tx.rr.com",4211,"Magnolia Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4211,"Primrose Drive","McKinney","TX",75070,"4211 Primrose Drive (00270-5730)","Izbicki, Thomas & Cheryl",,,4211,"Primrose Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4212,"English Ivy Drive","McKinney","TX",75070,"4212 English Ivy Drive (00270-5280)","Jack, Cheryl",,,4212,"English Ivy Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4212,"Honeysuckle Drive","McKinney","TX",75070,"4212 Honeysuckle Drive (00288-6400)","Baycroft, Matthew & Argenis",,,4212,"Honeysuckle Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4212,"Magnolia Drive","McKinney","TX",75070,"4212 Magnolia Drive (00270-4760)","Threadgill, Roderick",,,4212,"Magnolia Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4212,"Primrose Drive","McKinney","TX",75070,"4212 Primrose Drive (00270-5617)","Coryell, Shawn & Ann Marie",,"ascoryell@sbcglobal.net",4212,"Primrose Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4213,"English Ivy Drive","McKinney","TX",75070,"4213 English Ivy Drive (02016-0715)","Ryan & Jessie Rohlmeier",,,4213,"English ivy Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4213,"Honeysuckle Drive","McKinney","TX",75070,"4213 Honeysuckle Drive (00270-5594)","Mercado, Rafael",,,4213,"Honeysuckle Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4213,"Magnolia Drive","McKinney","TX",75070,"4213 Magnolia Drive (02013-1220)","Amit Ramraz",,,7820,"Crestview Drive","Plano","TX",75024
+"Eldorado Heights Phase 1 HOA, Inc.",4214,"English Ivy Drive","McKinney","TX",75070,"4214 English Ivy Drive (02013-0320)","Monk, Michael & Hilari",,,4214,"English Ivy Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4214,"Honeysuckle Drive","McKinney","TX",75070,"4214 Honeysuckle Drive (00270-5442)","Sparks, M. & K. McCormack",,,4214,"Honeysuckle Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4214,"Magnolia Drive","McKinney","TX",75070,"4214 Magnolia Drive (00270-4773)","O'Hara, Laura Ann","(972) 540-2714",,4214,"Magnolia Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4215,"English Ivy Drive","McKinney","TX",75070,"4215 English Ivy Drive (02017-1214)","Early B Milstead",,,505,"rook Ln","McKinney","TX",75069
+"Eldorado Heights Phase 1 HOA, Inc.",4215,"Honeysuckle Drive","McKinney","TX",75070,"4215 Honeysuckle Drive (00280-5009)","Fenton, Kathleen S.",,"kfenton@collin.edu",4215,"Honeysuckle Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4215,"Magnolia Drive","McKinney","TX",75070,"4215 Magnolia Drive (00270-5219)","Astacio, Edward & Peggy",,,4215,"Magnolia Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4216,"English Ivy Drive","McKinney","TX",75070,"4216 English Ivy Drive (00294-1044)","Xianfeng Lu & Xiuying Gao",,,4448,"Caledonia Creek Lane","Plano","TX",75024
+"Eldorado Heights Phase 1 HOA, Inc.",4216,"Honeysuckle Drive","McKinney","TX",75070,"4216 Honeysuckle Drive (00270-5439)","Commander, Rosemary",,,4216,"Honeysuckle Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4216,"Magnolia Drive","McKinney","TX",75070,"4216 Magnolia Drive (00270-4786)","Murphy, David",,,4216,"Magnolia Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4217,"English Ivy Drive","McKinney","TX",75070,"4217 English Ivy Drive (00270-5400)","Smith, Samuel M.",,,4217,"English Ivy Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4217,"Magnolia Drive","McKinney","TX",75070,"4217 Magnolia Drive (00270-5206)","Pearson, David & Mariana",,,4217,"Magnolia Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4218,"English Ivy Drive","McKinney","TX",75070,"4218 English Ivy Drive (00270-5316)","Vassar, Bryan & Kelli",,,4218,"English Ivy Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4218,"Magnolia Drive","McKinney","TX",75070,"4218 Magnolia Drive (00270-4799)","Robles, Mary","(972) 542-4307",,4218,"Magnolia Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4219,"English Ivy Drive","McKinney","TX",75070,"4219 English Ivy Drive (00270-5413)","Erickson, Angela & Clay Rodgers",,"jason.rodgers@ymail.com",4219,"English Ivy Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4219,"Magnolia Drive","McKinney","TX",75070,"4219 Magnolia Drive (00270-5170)","LeBlanc, R.",,,4219,"Magnolia Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4220,"Magnolia Drive","McKinney","TX",75070,"4220 Magnolia Drive (00276-0461)","Hill, Jennifer R & Christopher",,,4220,"Magnolia Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4221,"English Ivy Drive","McKinney","TX",75070,"4221 English Ivy Drive (02014-0731)","Garrett W. Goffstein",,,4221,"English Ivy Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4221,"Magnolia Drive","McKinney","TX",75070,"4221 Magnolia Drive (02013-0528)","Feng-Sheng Chen",,,4221,"Magnolia Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4222,"Magnolia Drive","McKinney","TX",75070,"4222 Magnolia Drive (00270-4812)","Bell, Shannon & Penney",,,4222,"Magnolia Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4224,"Magnolia Drive","McKinney","TX",75070,"4224 Magnolia Drive (00270-4825)","Weber, Bryan & Denise","(469) 235-4017","web4bdkj@att.net",4224,"Magnolia Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4500,"Highlands Drive","McKinney","TX",75070,"4500 Highlands Drive (00270-6593)","Sullivan, Mary",,,4500,"Highlands Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4502,"Highlands Drive","McKinney","TX",75070,"4502 Highlands Drive (00270-6564)","Wiles, Jessica",,,4502,"Highlands Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4504,"Highlands Drive","McKinney","TX",75070,"4504 Highlands Drive (02014-0103)","American Homes  4 Rent","(702) 960-1702","hoa@ah4r.com",280,"ilot Road Suite 200-AM","Las Vegas","NV",89119
+"Eldorado Heights Phase 1 HOA, Inc.",4506,"Highlands Drive","McKinney","TX",75070,"4506 Highlands Drive (2016-1017)","Pareshkumar Gabani & Anil Kasodarya & Virebdrasinh",,,1414,"Oak Hill Lane","Murphy","TX",75094
+"Eldorado Heights Phase 1 HOA, Inc.",4508,"Highlands Drive","McKinney","TX",75070,"4508 Highlands Drive (00292-8135)","JC2 Properties",,,"3 Fo"," Hollow Lane","Melissa","TX",75454
+"Eldorado Heights Phase 1 HOA, Inc.",4510,"Highlands Drive","McKinney","TX",75070,"4510 Highlands Drive (02015-0722)","Karsono Bagoes & Selvia Sukardi Wongso",,,2609,"Commonwealth Court","Plano","TX",75093
+"Eldorado Heights Phase 1 HOA, Inc.",4512,"Highlands Drive","McKinney","TX",75070,"4512 Highlands Drive (02014-0710)","Jason Martinez",,,4512,"Highlands Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4514,"Highlands Drive","McKinney","TX",75070,"4514 Highlands Drive (00270-6409)","Purvin, Elizabeth Kelley","(972) 540-1943","ep6176@att.com","PO B","x 1435","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4516,"Highlands Drive","McKinney","TX",75070,"4516 Highlands Drive (02013-0524)","Zushan Tao and Weiming Wang",,,1433,"Faringdon Drive","Plano","TX",75075
+"Eldorado Heights Phase 1 HOA, Inc.",4518,"Highlands Drive","McKinney","TX",75070,"4518 Highlands Drive (00270-6357)","Vlamides, Mary",,,5200,"Keller Springs Unit # 714","Dallas","TX",75248
+"Eldorado Heights Phase 1 HOA, Inc.",4520,"Highlands Drive","McKinney","TX",75070,"4520 Highlands Drive (00270-6344)","Harris, Judith",,,4520,"Highlands Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4522,"Highlands Drive","McKinney","TX",75070,"4522 Highlands Drive (00270-6276)","Bankston, Heather",,,4522,"Highlands Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4600,"Basil Drive","McKinney","TX",75070,"4600 Basil Drive (00270-8863)","Jones, Herman",,,4600,"Basil Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4600,"Monte Vista Lane","McKinney","TX",75070,"4600 Monte Vista Lane (00270-9529)","Perez, Richard & Carolyn",,,4600,"Monte Vista Lane","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4600,"Redwood Drive","McKinney","TX",75070,"4600 Redwood Drive (00270-7398)","Najafabadi, S. & B. Arbasi","(214) 597-2921","babak_arbasi@yahoo.com",7309,"Sharps Drive","Plano","TX",75025
+"Eldorado Heights Phase 1 HOA, Inc.",4600,"Santa Cruz Drive","McKinney","TX",75070,"4600 Santa Cruz Drive (00279-3027)","Khalajabadi, S. Nafe & A.",,,4600,"Santa Cruz Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4600,"Spanish Moss Drive","McKinney","TX",75070,"4600 Spanish Moss Drive (02015-0708)","Nina N. Norouzi & Farsam S. Asbaghi",,,4600,"Spanish Moss Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4601,"Basil Drive","McKinney","TX",75070,"4601 Basil Drive (02014-0127)","White, Melissa",,,4601,"Basil Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4601,"Highlands Drive","McKinney","TX",75070,"4601 Highlands Drive (02016-0503)","Patrick A & Larissa E Reeve",,,4601,"Highlands Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4601,"Monte Vista Lane","McKinney","TX",75070,"4601 Monte Vista Lane (00270-9749)","Debock, Rein L.","(469) 734-9049","rein.debock@tx.rr.com","PO B","x 357","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4601,"Redwood Drive","McKinney","TX",75070,"4601 Redwood Drive (00270-7437)","McClain, Craig D.",,,4601,"Redwood Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4601,"Spanish Moss Drive","McKinney","TX",75070,"4601 Spanish Moss Drive (00271-0152)","Valdez, Jose & Sandra","(469) 446-0823","xbucket1@gmail.com",4601,"Spanish Moss Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4602,"Basil Drive","McKinney","TX",75070,"4602 Basil Drive (02013 - 1114)","Bratton, Paige",,,4602,"Basil Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4602,"Monte Vista Lane","McKinney","TX",75070,"4602 Monte Vista Lane (00270-9532)","Clark, Hugh & Connie",,,4602,"Monte Vista Lane","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4602,"Redwood Drive","McKinney","TX",75070,"4602 Redwood Drive (00270-7369)","Novak, Avis M.",,,4602,"Redwood Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4602,"Santa Cruz Drive","McKinney","TX",75070,"4602 Santa Cruz Drive (00270-7521)","Yen, Chiung-Yi",,,4602,"Santa Cruz Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4602,"Spanish Moss Drive","McKinney","TX",75070,"4602 Spanish Moss Drive (00271-0136)","Hutchison, Stephen",,,4602,"Spanish Moss Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4603,"Basil Drive","McKinney","TX",75070,"4603 Basil Drive (00270-9480)","Moody, Michael",,,4603,"Basil Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4603,"Highlands Drive","McKinney","TX",75070,"4603 Highlands Drive (00270-8834)","Leonard, James & Margaret",,,4603,"Highlands Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4603,"Monte Vista Lane","McKinney","TX",75070,"4603 Monte Vista Lane (00270-9765)","Bao, Chun & Jinggang Cao",,,6500,"Briar Ridge Lane","Plano","TX",75024
+"Eldorado Heights Phase 1 HOA, Inc.",4603,"Spanish Moss Drive","McKinney","TX",75070,"4603 Spanish Moss Drive (00271-0165)","Bowley, Amy",,,4603,"Spanish Moss Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4604,"Basil Drive","McKinney","TX",75070,"4604 Basil Drive (00270-8902)","Kirby, Twila Anderson",,,4604,"Basil Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4604,"Monte Vista Lane","McKinney","TX",75070,"4604 Monte Vista Lane (00270-9545)","Davis, Jeffrey",,,4604,"Monte Vista Lane","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4604,"Redwood Drive","McKinney","TX",75070,"4604 Redwood Drive (00270-7356)","Velez, J. & M.",,,4604,"Redwood Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4604,"Santa Cruz Drive","McKinney","TX",75070,"4604 Santa Cruz Drive (00277-3555)","Dwyer, Victor A. & Judy A.",,,2705,"Woodson Dr","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4604,"Spanish Moss Drive","McKinney","TX",75070,"4604 Spanish Moss Drive (02014-0815)","Ivan Calzada & Gema L. Camacho",,,4604,"Spanish Moss Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4605,"Basil Drive","McKinney","TX",75070,"4605 Basil Drive (02017-0315)","Lillie Player Kidd",,,4605,"Basil Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4605,"Highlands Drive","McKinney","TX",75070,"4605 Highlands Drive (00278-7127)","Wood, Karin",,,4605,"Highlands Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4605,"Monte Vista Lane","McKinney","TX",75070,"4605 Monte Vista Lane (00270-9781)","Katuin, Kevin",,,4605,"Monte Vista Lane","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4605,"Redwood Drive","McKinney","TX",75070,"4605 Redwood Drive (00270-7440)","Hankison, Wade & T. Torrance",,,4605,"Redwood Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4605,"Santa Cruz Drive","McKinney","TX",75070,"4605 Santa Cruz Drive (00287-5246)","Ahmetovic, Dzemal & Sabrija",,,4605,"Santa Cruz Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4605,"Spanish Moss Drive","McKinney","TX",75070,"4605 Spanish Moss Drive (02013 - 0906)","Zhaojiao Wang & Keke Zhang",,,6134,"Birdhill Ln","Frisco","TX",75035
+"Eldorado Heights Phase 1 HOA, Inc.",4606,"Basil Drive","McKinney","TX",75070,"4606 Basil Drive (00270-8915)","Sorensen, Ragnar & Holly",,,4606,"Basil Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4606,"Monte Vista Lane","McKinney","TX",75070,"4606 Monte Vista Lane (02013 - 0807)","Britt, Ashley C.",,,4606,"Monte Vista Lane","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4606,"Redwood Drive","McKinney","TX",75070,"4606 Redwood Drive (00270-7330)","Todd, Edgar & Roberta","(214) 952-3264","ertodd1234@att.net",4606,"Redwood Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4606,"Santa Cruz Drive","McKinney","TX",75070,"4606 Santa Cruz Drive (00270-7505)","Pinkston, Thomas & Marta",,,4606,"Santa Cruz Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4606,"Spanish Moss Drive","McKinney","TX",75070,"4606 Spanish Moss Drive (02017-0310)","Ali Ghanbari & Maryam Rezai Todashki",,,4606,"Spanish Moss Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4607,"Basil Drive","McKinney","TX",75070,"4607 Basil Drive (00270-9422)","Hornig, John & Rivera, Juana",,,4607,"Basil Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4607,"Highlands Drive","McKinney","TX",75070,"4607 Highlands Drive (00270-8805)","McCutchen, Connie",,,4607,"Highlands Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4607,"Monte Vista Lane","McKinney","TX",75070,"4607 Monte Vista Lane (02012-1101)","Lai Chih-Sheng & Ta-jen Hsing",,,4412,"Southpointe Drive","Richardson","TX",75082
+"Eldorado Heights Phase 1 HOA, Inc.",4607,"Santa Cruz Drive","McKinney","TX",75070,"4607 Santa Cruz Drive (00270-9053)","Rawlings, Brian",,,4607,"Santa Cruz Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4607,"Spanish Moss Drive","McKinney","TX",75070,"4607 Spanish Moss Drive (00271-0181)","Ewell, Bradley & Pamela",,,4607,"Spanish Moss Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4608,"Basil Drive","McKinney","TX",75070,"4608 Basil Drive (02017-0503)","Antigua, LLC",,,4911,"Stanford Ave","Dallas","TX",75209
+"Eldorado Heights Phase 1 HOA, Inc.",4608,"Monte Vista Lane","McKinney","TX",75070,"4608 Monte Vista Lane (00270-9574)","Burdett, C. & S. Beaty",,"kaiefire@yahoo.com",4608,"Monte Vista Lane","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4608,"Redwood Drive","McKinney","TX",75070,"4608 Redwood Drive (00287-6973)","Harris, Shaundra D.",,,4608,"Redwood Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4608,"Santa Cruz Drive","McKinney","TX",75070,"4608 Santa Cruz Drive (00270-7495)","Smith, Oscar",,,4608,"Santa Cruz Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4608,"Spanish Moss Drive","McKinney","TX",75070,"4608 Spanish Moss Drive (02016-0216)","Evgeny Chauskey",,,4608,"Spanish Moss Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4609,"Basil Drive","McKinney","TX",75070,"4609 Basil Drive (00270-9406)","Shoaib, Mohammed",,,312,"yperess Garden Drive","McKinney","TX",75071
+"Eldorado Heights Phase 1 HOA, Inc.",4609,"Highlands Drive","McKinney","TX",75070,"4609 Highlands Drive (02015-0327)","Jane C. Schneer",,,4609,"Highlands Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4609,"Monte Vista Lane","McKinney","TX",75070,"4609 Monte Vista Lane (00270-9833)","Jaeger, Michael & Phyllis",,,4609,"Monte Vista Lane","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4609,"Redwood Drive","McKinney","TX",75070,"4609 Redwood Drive (00270-7453)","Goff, Steven B. & Nanette E.",,,4609,"Redwood Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4609,"Santa Cruz Drive","McKinney","TX",75070,"4609 Santa Cruz Drive (00270-9079)","Carriere, Alan","(214) 578-6406","Carrierefamily@gmail.com",4609,"Santa Cruz Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4609,"Spanish Moss Drive","McKinney","TX",75070,"4609 Spanish Moss Drive (02016-0714)","Qifeng M & Jia W Situ",,,1394," Eleanor Ave","Frisco","TX",75035
+"Eldorado Heights Phase 1 HOA, Inc.",4610,"Basil Drive","McKinney","TX",75070,"4610 Basil Drive (02014-0616)","Mojgan Hejabian & Omid Mohebi",,,4610,"Basil Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4610,"Monte Vista Lane","McKinney","TX",75070,"4610 Monte Vista Lane (00270-9587)","Ortega, Joshua & Jennifer","(469) 223-8786","joshjenortega@gmail.com",4610,"Monte Vista Lane","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4610,"Redwood Drive","McKinney","TX",75070,"4610 Redwood Drive (02013-0417)","Rosemarie Allen","(972) 325-1480",,4610,"Redwood Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4610,"Santa Cruz Drive","McKinney","TX",75070,"4610 Santa Cruz Drive (00270-7482)","Green, Richard A. & Nancy L.",,,836,"hapel Hill","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4610,"Spanish Moss Drive","McKinney","TX",75070,"4610 Spanish Moss Drive (02017-0802)","Xin & Mark Bien Koepsell",,,4610,"Spanish Moss Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4611,"Basil Drive","McKinney","TX",75070,"4611 Basil Drive (00270-9383)","Muff, Leslie Marie",,"lesleymmuff@gmail.com",1764,"Farmland Drive","Acworth","GA",30101
+"Eldorado Heights Phase 1 HOA, Inc.",4611,"Highlands Drive","McKinney","TX",75070,"4611 Highlands Drive (00270-8779)","McHam, Allen & Teresa","(214) 668-7974","allenmcham@att.net",4611,"Highlands Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4611,"Monte Vista Lane","McKinney","TX",75070,"4611 Monte Vista Lane (02015-0112)","Kathleen Baerthel",,,4611,"Monte Vista Lane","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4611,"Santa Cruz Drive","McKinney","TX",75070,"4611 Santa Cruz Drive (00270-9095)","Keyes, Homer C. & Rachel D.","(972) 542-4307",,4611,"Santa Cruz Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4611,"Spanish Moss Drive","McKinney","TX",75070,"4611 Spanish Moss Drive (00271-0204)","Ballantyne, Flent D.",,,4611,"Spanish Moss Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4612,"Basil Drive","McKinney","TX",75070,"4612 Basil Drive (00270-8960)","Herman, Mark & Barbara",,,4612,"Basil Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4612,"Monte Vista Lane","McKinney","TX",75070,"4612 Monte Vista Lane (00287-5217)","Bower, Travis L. & Abigail L.",,,4612,"Monte Vista Lane","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4612,"Spanish Moss Drive","McKinney","TX",75070,"4612 Spanish Moss Drive (00271-0084)","Reeves, Richard",,,4612,"Spanish Moss Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4613,"Basil Drive","McKinney","TX",75070,"4613 Basil Drive (02012-1219)","Congzhong Huang",,,3525,"Dripping Springs Dr","Plano","TX",75025
+"Eldorado Heights Phase 1 HOA, Inc.",4613,"Highlands Drive","McKinney","TX",75070,"4613 Highlands Drive (00270-8766)","Warren, William & Sherry Nabors",,,3001,"S. Hardin Blvd Ste 110-209","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4613,"Monte Vista Lane","McKinney","TX",75070,"4613 Monte Vista Lane (00283-1345)","Perdomo, Roxana",,,9305,"103rd Ave","Ozone Park","NY",11417
+"Eldorado Heights Phase 1 HOA, Inc.",4613,"Santa Cruz Drive","McKinney","TX",75070,"4613 Santa Cruz Drive (00274-8519)","Gonzales, Matthew S.",,"MattSantaG@gmail.com",4613,"Santa Cruz Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4614,"Basil Drive","McKinney","TX",75070,"4614 Basil Drive (00270-8973)","Marnik, Richard & Eileen",,,4614,"Basil Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4614,"Monte Vista Lane","McKinney","TX",75070,"4614 Monte Vista Lane (02013-0429)","Angela Lewis",,,4614,"Monte Vista Lane","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4615,"Basil Drive","McKinney","TX",75070,"4615 Basil Drive (00270-9341)","Strommen, Richard",,,4615,"Basil Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4615,"Highlands Drive","McKinney","TX",75070,"4615 Highlands Drive (02015-0622)","Paul A. Presley",,,1201,"E. Park Blvd Apt. 116","Plano","TX",75074
+"Eldorado Heights Phase 1 HOA, Inc.",4700,"Basil Drive","McKinney","TX",75070,"4700 Basil Drive (00270-8999)","Parker, Lacey & Stacey",,,4700,"Basil Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4700,"Highlands Drive","McKinney","TX",75070,"4700 Highlands Drive (00270-7372)","Gotcher, James & Sharon",,,4700,"Highlands Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4700,"Monte Vista Lane","McKinney","TX",75070,"4700 Monte Vista Lane (02014-0219)","Sohn, Grace Chung",,,8400,"Riverwalk Trail","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4700,"Redwood Drive","McKinney","TX",75070,"4700 Redwood Drive (00270-7288)","Mikolaj, Kenneth J.",,,4700,"Redwood Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4700,"Spanish Moss Drive","McKinney","TX",75070,"4700 Spanish Moss Drive (00271-0071)","Oakes, Stephen",,,4700,"Spanish Moss Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4700,"Sunflower Drive","McKinney","TX",75070,"4700 Sunflower Drive (00270-6904)","Montazeri, Mohammed & Azita",,,4700,"Sunflower Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4701,"Basil Drive","McKinney","TX",75070,"4701 Basil Drive (02017-0414)","Jose Ramirez & Monica Ventura",,,4701,"Basil Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4701,"Highlands Drive","McKinney","TX",75070,"4701 Highlands Drive (02015-1203)","Nader Kafai","(214) 642-5622","qtc_nk@yahoo.com",7304,"Everett Lane","Plano","TX",75025
+"Eldorado Heights Phase 1 HOA, Inc.",4701,"Monte Vista Lane","McKinney","TX",75070,"4701 Monte Vista Lane (00284-3469)","Equity Trust",,,1908,"Glenwick Drive","Plano","TX",75075
+"Eldorado Heights Phase 1 HOA, Inc.",4701,"Redwood Drive","McKinney","TX",75070,"4701 Redwood Drive (00270-7466)","Kim, Kee B. & Kee S.",,,5900,"Sidney lane","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4701,"Spanish Moss Drive","McKinney","TX",75070,"4701 Spanish Moss Drive (02015-0227)","Kevin Ximing Fan & Leanna Qui Zhao",,,4701,"Spanish Moss Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4701,"Sunflower Drive","McKinney","TX",75070,"4701 Sunflower Drive (00270-6920)","Masoum, Hossein Saffar",,,4701,"Sunflower Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4702,"Basil Drive","McKinney","TX",75070,"4702 Basil Drive (02015-0909)","Charles Samuel Reid, Jr.",,,4702,"Basil Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4702,"Highlands Drive","McKinney","TX",75070,"4702 Highlands Drive (00270-7343)","Marrie, Mark William",,,4702,"Highlands Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4702,"Monte Vista Lane","McKinney","TX",75070,"4702 Monte Vista Lane (02016-0920)","Tabish Ahmed & Hashir Siddiqui",,,4702,"Monte Vista Lane","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4702,"Redwood Drive","McKinney","TX",75070,"4702 Redwood Drive (00270-7262)","Brodigan, Jason M.","(817) 366-7261","jbrod007@sbcglobal.net",4702,"Redwood Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4702,"Spanish Moss Drive","McKinney","TX",75070,"4702 Spanish Moss Drive (00288-8217)","Wyndham, Lisa Anne",,,4702,"Spanish Moss Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4702,"Sunflower Drive","McKinney","TX",75070,"4702 Sunflower Drive (00270-6881)","Nieland, Craig & Janice",,,4702,"Sunflower Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4703,"Basil Drive","McKinney","TX",75070,"4703 Basil Drive (00270-9312)","Cabral, Sherman & Rhonda",,,4703,"Basil Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4703,"Highlands Drive","McKinney","TX",75070,"4703 Highlands Drive (00270-8724)","Daniel, Carolyn",,,4703,"Highlands Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4703,"Monte Vista Lane","McKinney","TX",75070,"4703 Monte Vista Lane (00270-9914)","Goodmark, Steve & Christina",,,4703,"Monte Vista Lane","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4703,"Redwood Drive","McKinney","TX",75070,"4703 Redwood Drive (02015-1210)","Annette Hedblom",,,4703,"Redwood Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4703,"Spanish Moss Drive","McKinney","TX",75070,"4703 Spanish Moss Drive (02013-0812)","American Homes  4 Rent","(702) 960-1702","hoa@ah4.com",280,"ilot Road Suite 200-AM","Las Vegas","NV",89119
+"Eldorado Heights Phase 1 HOA, Inc.",4703,"Sunflower Drive","McKinney","TX",75070,"4703 Sunflower Drive (00270-6946)","Martin Daniel & Jennifer Scarfe Meier",,,4703,"Sunflower Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4704,"Basil Drive","McKinney","TX",75070,"4704 Basil Drive (00270-9037)","Huang, Jeffrey & Linda",,,4704,"Basil Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4704,"Highlands Drive","McKinney","TX",75070,"4704 Highlands Drive (02014-1112)","HPA Texas Oper. (HPA TX)","(214) 432-1959","hoa@pathlightmgmt.com",6500,"International Pkwy Suite #1100","Plano","TX",75093
+"Eldorado Heights Phase 1 HOA, Inc.",4704,"Monte Vista Lane","McKinney","TX",75070,"4704 Monte Vista Lane (02016-0726)","Yuko Ishikawa",,,4704,"Monte Vista Lane","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4704,"Redwood Drive","McKinney","TX",75070,"4704 Redwood Drive (00270-7220)","Osei-Ameyaw, Leo K. & Freda",,,4704,"Redwood Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4704,"Spanish Moss Drive","McKinney","TX",75070,"4704 Spanish Moss Drive (00271-0055)","Salazar, Michael",,,4704,"Spanish Moss Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4704,"Sunflower Drive","McKinney","TX",75070,"4704 Sunflower Drive (00270-6878)","Joseph, John & Lenna",,,4704,"Sunflower Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4705,"Basil Drive","McKinney","TX",75070,"4705 Basil Drive (02013-0131)","South, Derek & Rebecca",,,3003,"Twin Lakes Drive","Prosper","TX",75078
+"Eldorado Heights Phase 1 HOA, Inc.",4705,"Highlands Drive","McKinney","TX",75070,"4705 Highlands Drive (00270-8711)","Kaberline, David & Linda","(972) 562-2744","turnitup2@prodigy.net",4705,"Highlands Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4705,"Monte Vista Lane","McKinney","TX",75070,"4705 Monte Vista Lane (00270-9927)","Gonzalez, Jesse A.",,,4705,"Monte Vista Lane","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4705,"Spanish Moss Drive","McKinney","TX",75070,"4705 Spanish Moss Drive (00271-0233)","Pruitt, Stanley",,,4705,"Spanish Moss Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4705,"Sunflower Drive","McKinney","TX",75070,"4705 Sunflower Drive (00274-3323)","Rader, Joseph D. & Carol L.",,,4705,"Sunflower Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4706,"Basil Drive","McKinney","TX",75070,"4706 Basil Drive (00270-9040)","Garcia, Fred & Donna",,,4706,"Basil Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4706,"Highlands Drive","McKinney","TX",75070,"4706 Highlands Drive (02014-1204)","Albert & Marcia Louise Desantis",,,4706,"Highlands Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4706,"Monte Vista Lane","McKinney","TX",75070,"4706 Monte Vista Lane (00270-9684)","Musgrave, Richard",,,4706,"Monte Vista Lane","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4706,"Redwood Drive","McKinney","TX",75070,"4706 Redwood Drive (00270-7194)","Kim, Kee B. & Hee S.",,,5900,"Sidney lane","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4706,"Spanish Moss Drive","McKinney","TX",75070,"4706 Spanish Moss Drive (02016-1118)","Christopher J. Hertzog",,,4706,"Spanish Moss Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4706,"Sunflower Drive","McKinney","TX",75070,"4706 Sunflower Drive (02014-0624)","Matthew Joseph  Dziuba",,,4706,"Sunflower Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4707,"Basil Drive","McKinney","TX",75070,"4707 Basil Drive (00270-9286)","Smith, John Hansen & Anne",,,4707,"Basil Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4707,"Highlands Drive","McKinney","TX",75070,"4707 Highlands Drive (00270-8708)","Brown, Phyllis",,,"P.O.","Box 701552","Dallas","TX",75370
+"Eldorado Heights Phase 1 HOA, Inc.",4707,"Monte Vista Lane","McKinney","TX",75070,"4707 Monte Vista Lane (00270-9930)","Ettle, Beverly",,"rabbit511@att.net",4707,"Monte Vista Lane","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4707,"Spanish Moss Drive","McKinney","TX",75070,"4707 Spanish Moss Drive (00271-0246)","Hughes, Debra",,,4707,"Spanish Moss Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4707,"Sunflower Drive","McKinney","TX",75070,"4707 Sunflower Drive (02017-0206)","Sunet Group LLC",,,5048,"Tennyson Parkway Suite 250","Plano","TX",75024
+"Eldorado Heights Phase 1 HOA, Inc.",4708,"Basil Drive","McKinney","TX",75070,"4708 Basil Drive (2012-0006)","Yi Hu",,,4708,"Basil Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4708,"Highlands Drive","McKinney","TX",75070,"4708 Highlands Drive (00270-7275)","Orbegoso, A. & S. Campos",,,4708,"Highlands Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4708,"Monte Vista Lane","McKinney","TX",75070,"4708 Monte Vista Lane (02013-1025)","Wong, Tony & Sauching","(972) 897-7403",,4928,"Cape Coral Drive","Dallas","TX",75287
+"Eldorado Heights Phase 1 HOA, Inc.",4708,"Redwood Drive","McKinney","TX",75070,"4708 Redwood Drive (00270-7152)","Edmunds, J. & J.",,,4708,"Redwood Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4708,"Spanish Moss Drive","McKinney","TX",75070,"4708 Spanish Moss Drive (00271-0039)","Phillips, Michael & Amy",,,4708,"Spanish Moss Drive","Mckinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4708,"Sunflower Drive","McKinney","TX",75070,"4708 Sunflower Drive (00270-6836)","Villers, Laurie & Roy",,,4708,"Sunflower Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4709,"Basil Drive","McKinney","TX",75070,"4709 Basil Drive (00270-9260)","Winchester, Scott & Melody",,,4709,"Basil Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4709,"Highlands Drive","McKinney","TX",75070,"4709 Highlands Drive (00270-8698)","Coddington, Lawrence","(214) 797-4347",,4709,"Highlands Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4709,"Monte Vista Lane","McKinney","TX",75070,"4709 Monte Vista Lane (02015-0326)","Marco & Gricelda Martinez",,,4709,"Monte Visa Lane","McKnney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4709,"Spanish Moss Drive","McKinney","TX",75070,"4709 Spanish Moss Drive (02015-0729)","James T. Sher and Bei Cheng",,,6346,"Camden Ave","San Jose","CA",95120
+"Eldorado Heights Phase 1 HOA, Inc.",4709,"Sunflower Drive","McKinney","TX",75070,"4709 Sunflower Drive (02014-0523)","Todd Michael & Olivia Pearson","(720) 982-6346",,4709,"Sunflower Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4710,"Basil Drive","McKinney","TX",75070,"4710 Basil Drive (00270-9082)","Gibson, Randy & Jesusa",,,4710,"Basil Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4710,"Highlands Drive","McKinney","TX",75070,"4710 Highlands Drive (00270-7259)","Grimes, Harvey & Sharon",,,4710,"Highlands Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4710,"Monte Vista Lane","McKinney","TX",75070,"4710 Monte Vista Lane (00270-9710)","Sethi, Jatindra & Rashmi",,,4710,"Monte Vista Lane","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4710,"Spanish Moss Drive","McKinney","TX",75070,"4710 Spanish Moss Drive (00271-0026)","Jubran, Patricia",,,4710,"Spanish Moss Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4710,"Sunflower Drive","McKinney","TX",75070,"4710 Sunflower Drive (00270-6823)","Henderson, Mark",,,7400,"Waterfall Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4711,"Basil Drive","McKinney","TX",75070,"4711 Basil Drive (02014-0916)","Matthew D. Ferris",,,4711,"Basil Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4711,"Highlands Drive","McKinney","TX",75070,"4711 Highlands Drive (00270-8669)","Chavez, Jose & Mary",,,4711,"Highlands Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4711,"Monte Vista Lane","McKinney","TX",75070,"4711 Monte Vista Lane (00270-9972)","O'Connor, Vincent & Ann",,,1000," Oakton Plantation Ct","Vienna","VA",22181
+"Eldorado Heights Phase 1 HOA, Inc.",4711,"Sunflower Drive","McKinney","TX",75070,"4711 Sunflower Drive (00270-7013)","Dexter, Mark A.",,,4711,"Sunflower Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4712,"Basil Drive","McKinney","TX",75070,"4712 Basil Drive (02017-0830)","Alexander & Kristian Sarife",,,4712,"Basil Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4712,"Highlands Drive","McKinney","TX",75070,"4712 Highlands Drive (02014-1001)","Aaron Lee & Blair Allison Meador",,,4712,"Highlands Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4712,"Monte Vista Lane","McKinney","TX",75070,"4712 Monte Vista Lane (00270-9736)","Chow, Phillip & Eva",,,4712,"Monte Vista Lane","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4712,"Sunflower Drive","McKinney","TX",75070,"4712 Sunflower Drive (00270-6807)","Francis, Jason","(214) 263-1481","jason.francis@thispage.net",4712,"Sunflower Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4713,"Basil Drive","McKinney","TX",75070,"4713 Basil Drive (00270-9231)","Warren, Donald & Karen",,,4713,"Basil Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4713,"Highlands Drive","McKinney","TX",75070,"4713 Highlands Drive (02016-1006)","Lee Ann Myers",,,4713,"Highlands Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4713,"Monte Vista Lane","McKinney","TX",75070,"4713 Monte Vista Lane (02015 - 0122)","Starwood Waypoint Homes Partnership, LP",,,8665,"East Hartford Drive Suite 200","Scottsdale","AZ",85255
+"Eldorado Heights Phase 1 HOA, Inc.",4713,"Sunflower Drive","McKinney","TX",75070,"4713 Sunflower Drive (00270-7026)","Saum, Dennis A.",,,4713,"Sunflower Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4714,"Basil Drive","McKinney","TX",75070,"4714 Basil Drive (00270-9176)","Coufal, Yvette",,,4714,"Basil Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4714,"Highlands Drive","McKinney","TX",75070,"4714 Highlands Drive (00277-2815)","Mozingo, Jeffrey & Barbara","(214) 842-4062",,4714,"Highlands Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4714,"Sunflower Drive","McKinney","TX",75070,"4714 Sunflower Drive (00270-6797)","Lane, Nick & Allison",,,4714,"Sunflower Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4715,"Basil Drive","McKinney","TX",75070,"4715 Basil Drive (00270-9202)","Willey, Michael",,"mikecwilley@sbcglobal.net",4715,"Basil Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4715,"Highlands Drive","McKinney","TX",75070,"4715 Highlands Drive (00270-8643)","Hearon, Mark & Andrea","(214) 212-5172",,4715,"Highlands Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4715,"Sunflower Drive","McKinney","TX",75070,"4715 Sunflower Drive (00270-7039)","Riccardi, Joseph Carmine",,"joe.riccardi@kimley-horn.com",4715,"Sunflower Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4716,"Basil Drive","McKinney","TX",75070,"4716 Basil Drive (00288-6413)","Truitt, Rhonda","(214) 335-8791","rtruitt68@gmail.com",4716,"Basil Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4716,"Highlands Drive","McKinney","TX",75070,"4716 Highlands Drive (02014-0929)","Thomas Scott Whannell",,,4716,"Highlands Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4716,"Sunflower Drive","McKinney","TX",75070,"4716 Sunflower Drive (00270-6771)","Classe, Rosalie",,,4716,"Sunflower Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4717,"Highlands Drive","McKinney","TX",75070,"4717 Highlands Drive (02014-0530)","Scott Thomas $ Amber Lee Brakeville",,,4717,"Highlands Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4717,"Sunflower Drive","McKinney","TX",75070,"4717 Sunflower Drive (02014-0630A)","Charles Davis & Kati Hatfield","(214) 663-1749",,4717,"Sunflower Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4718,"Highlands Drive","McKinney","TX",75070,"4718 Highlands Drive (00270-7204)","Landes, James & Leah",,,4718,"Highlands Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4718,"Sunflower Drive","McKinney","TX",75070,"4718 Sunflower Drive (00270-6755)","Snyder, Donald & Mathlida",,,4718,"Sunflower Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4719,"Highlands Drive","McKinney","TX",75070,"4719 Highlands Drive (02018-0108)","Kathleen Noble",,,1433,"Colleyville Trail","Plano","TX",75023
+"Eldorado Heights Phase 1 HOA, Inc.",4719,"Sunflower Drive","McKinney","TX",75070,"4719 Sunflower Drive (02013-0827)","Duffy, Raymond & Jami",,,4719,"Sunflower Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4720,"Highlands Drive","McKinney","TX",75070,"4720 Highlands Drive (00281-3842)","Wu, Song",,,5941,"Glendower Ln.,","Plano","TX",75093
+"Eldorado Heights Phase 1 HOA, Inc.",4720,"Sunflower Drive","McKinney","TX",75070,"4720 Sunflower Drive (00270-6742)","Madsen, James & Laura",,,4720,"Sunflower Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4721,"Sunflower Drive","McKinney","TX",75070,"4721 Sunflower Drive (02014-0805)","Nathaniel & Stacey Spelleri",,,4721,"Sunflower Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4722,"Highlands Drive","McKinney","TX",75070,"4722 Highlands Drive (00270-7178)","Fleischer, Brian & Raquel","(972) 743-5130","brianfleischer@gmail.com",4722,"Highlands Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4722,"Sunflower Drive","McKinney","TX",75070,"4722 Sunflower Drive (00270-6739)","Vilarino, Gerardo & Regina",,,4722,"Sunflower Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4723,"Sunflower Drive","McKinney","TX",75070,"4723 Sunflower Drive (00270-7071)","Murdoch, Brian & Sharon",,,4723,"Sunflower Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4724,"Highlands Drive","McKinney","TX",75070,"4724 Highlands Drive (02017-0920)","Antonio & Beatriz Noguera",,,4724,"Highlands Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4724,"Sunflower Drive","McKinney","TX",75070,"4724 Sunflower Drive (00276-2524)","Macias, Marcia",,,1823,"Marshall Dr","Allen","TX",75013
+"Eldorado Heights Phase 1 HOA, Inc.",4725,"Sunflower Drive","McKinney","TX",75070,"4725 Sunflower Drive (00270-7107)","Porter, Richard",,,4725,"Sunflower  Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4726,"Highlands Drive","McKinney","TX",75070,"4726 Highlands Drive (00270-7149)","Lancaster, James & Susan","(972) 345-5738","jimlan1204@att.net",4726,"Highlands Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4726,"Sunflower Drive","McKinney","TX",75070,"4726 Sunflower Drive (02016-0708)","Sharon Bullok",,,4726,"Sunflower Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4727,"Sunflower Drive","McKinney","TX",75070,"4727 Sunflower Drive (02015-0826)","Elli Ashtari & Ehsan Soltanipour",,,4727,"Sunflower Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4728,"Sunflower Drive","McKinney","TX",75070,"4728 Sunflower Drive (02013-0101)","American Homes  4 Rent","(702) 960-1720","hoa@ah4r.com",280,"ilot Road Suite 200-AM","Las Vegas","NV",89119
+"Eldorado Heights Phase 1 HOA, Inc.",4800,"Basil Drive","McKinney","TX",75070,"4800 Basil Drive (00271-0411)","Boren, James & Tenie",,,4800,"Basil Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4800,"Highlands Drive","McKinney","TX",75070,"4800 Highlands Drive (00270-9888)","Jaballa, Alexander Perez",,,4800,"Highlands Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4800,"Monte Vista Lane","McKinney","TX",75070,"4800 Monte Vista Lane (00270-5918)","Rupe, Mark",,,4800,"Monte Vista Lane","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4800,"Redwood Drive","McKinney","TX",75070,"4800 Redwood Drive (00270-9118)","Beasley, K. & D.",,,4800,"Redwood Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4800,"Spanish Moss Drive","McKinney","TX",75070,"4800 Spanish Moss Drive (02013-0823)","Biggerstaff, Robbin",,,4800,"Spanish Moss Drive","MCKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4800,"Sunflower Drive","McKinney","TX",75070,"4800 Sunflower Drive (00287-5220)","Hairgrove, L. & E.",,,4800,"Sunflower Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4801,"Basil Drive","McKinney","TX",75070,"4801 Basil Drive (00271-1067)","Sanchez, Raul & Maria","(972) 540-1875","rauld_sanchez@hotmail.com",4801,"Basil Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4801,"Highlands Drive","McKinney","TX",75070,"4801 Highlands Drive (00271-0408)","Brown, Steven & Brenda",,,4801,"Highlands Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4801,"Monte Vista Lane","McKinney","TX",75070,"4801 Monte Vista Lane (00270-5921)","Ruto, Shadrack & Elizabeth",,,4801,"Monte Vista Lane","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4801,"Spanish Moss Drive","McKinney","TX",75070,"4801 Spanish Moss Drive (00271-1054)","Parada, Roy & Maria",,,4801,"Spanish Moss Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4801,"Sunflower Drive","McKinney","TX",75070,"4801 Sunflower Drive (00270-9862)","Covington, Thomas",,"tommycov@tx.rr.com",4801,"Sunflower Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4802,"Highlands Drive","McKinney","TX",75070,"4802 Highlands Drive (00270-9901)","Thomas, Cody & Nicole",,,4802,"Highlands Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4802,"Redwood Drive","McKinney","TX",75070,"4802 Redwood Drive (02017-0714)","Rylindan Properties LLC",,,319,"intail Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4802,"Sunflower Drive","McKinney","TX",75070,"4802 Sunflower Drive (00270-7408)","Hennessy, Richard","(972) 562-6635",,4802,"Sunflower Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4803,"Sunflower Drive","McKinney","TX",75070,"4803 Sunflower Drive (00270-9846)","Thomas Hartford",,,4803,"Sunflower Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4804,"Basil Drive","McKinney","TX",75070,"4804 Basil Drive (2012-0007)","Natalia Ender","(214) 621-1693",,1314,"W. McDermott Dr. Ste 106/532","Allen","TX",75013
+"Eldorado Heights Phase 1 HOA, Inc.",4804,"Highlands Drive","McKinney","TX",75070,"4804 Highlands Drive (02014-0630)","Weatherford, Cynthia Leigh","(469) 733-7174","cindy-eagle@sbcglobal.net",4804,"Highlands Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4804,"Monte Vista Ln","McKinney","TX",75070,"4804 Monte Vista Ln (00276-1295)","Echeverria, A. & M. Hernandez",,,4804,"Monte Vista Ln","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4804,"Redwood Drive","McKinney","TX",75070,"4804 Redwood Drive (02015-0827)","Edwin E. Taylor",,,4804,"Redwood Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4804,"Spanish Moss Drive","McKinney","TX",75070,"4804 Spanish Moss Drive (00270-6234)","Roof, Gregory K. & Lori",,,4804,"Spanish Moss Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4804,"Sunflower Drive","McKinney","TX",75070,"4804 Sunflower Drive (00270-7411)","Couch, James",,,4804,"Sunflower Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4805,"Basil Drive","McKinney","TX",75070,"4805 Basil Drive (02014-0903)","Kirk Real Estate, LLC",,,6926,"Ranier Street","Frisco","TX",75034
+"Eldorado Heights Phase 1 HOA, Inc.",4805,"Highlands Drive","McKinney","TX",75070,"4805 Highlands Drive (00271-0398)","Simmons, Tiffany",,"simmonstiffany@hotmail.com",4805,"Highlands Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4805,"Monte Vista Lane","McKinney","TX",75070,"4805 Monte Vista Lane (02016-0718)","James Aaron & Allison J. Stewart",,,4805,"Monte Vista Ln","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4805,"Spanish Moss Drive","McKinney","TX",75070,"4805 Spanish Moss Drive (02014-1209)","Timothy & Kimothy Pickrell",,,4805,"Spanish Moss Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4805,"Sunflower Drive","McKinney","TX",75070,"4805 Sunflower Drive (00270-9820)","Ford, Kevin A.","(214) 218-7821","lhclaims@gmail.com",4805,"Sunflower Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4806,"Highlands Drive","McKinney","TX",75070,"4806 Highlands Drive (02014-0723)","Fassihnia Investment Group Corporation",,,6815,"Meadow Road","Dallas","TX",75230
+"Eldorado Heights Phase 1 HOA, Inc.",4806,"Redwood Drive","McKinney","TX",75070,"4806 Redwood Drive (00270-9150)","Shadenko, Tatyana",,,4806,"Redwood Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4806,"Sunflower Drive","McKinney","TX",75070,"4806 Sunflower Drive (02015-1119)","Brian Welnack & Shuk Kwan Cheuk",,,1704,"Hearstone Drive","Plano","TX",75023
+"Eldorado Heights Phase 1 HOA, Inc.",4807,"Sunflower Drive","McKinney","TX",75070,"4807 Sunflower Drive (00270-9804)","Korte, Christopher","(972) 877-1836","sherikorte@hotmail.com",4807,"Sunflower Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4808,"Basil Drive","McKinney","TX",75070,"4808 Basil Drive (00271-0437)","Hollis, Charles",,"cdhollis@gmail.com",4808,"Basil Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4808,"Highlands Drive","McKinney","TX",75070,"4808 Highlands Drive (02017-0811)","Charles R Stephenson",,,4808,"Highlands Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4808,"Monte Vista Lane","McKinney","TX",75070,"4808 Monte Vista Lane (02014 -0313)","Frank Orlando",,,2621,"Meadow Ridge Drive","Prosper","TX",75078
+"Eldorado Heights Phase 1 HOA, Inc.",4808,"Redwood Drive","McKinney","TX",75070,"4808 Redwood Drive (00270-9163)","Chamberlin, H. & D.",,,4808,"Redwood Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4808,"Spanish Moss Drive","McKinney","TX",75070,"4808 Spanish Moss Drive (00270-6218)","Moseley, Joe M. & Gwendolyn",,,4808,"Spanish Moss Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4808,"Sunflower Drive","McKinney","TX",75070,"4808 Sunflower Drive (00270-7576)","McKnight, Vincent & Monique",,,4808,"Sunflower Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4809,"Basil Drive","McKinney","TX",75070,"4809 Basil Drive (00271-1083)","Dowell, William & Constance",,,4809,"Basil Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4809,"Highlands Drive","McKinney","TX",75070,"4809 Highlands Drive (00271-0385)","Freeman, Donald",,,4809,"Highlands Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4809,"Monte Vista Lane","McKinney","TX",75070,"4809 Monte Vista Lane (00270-5947)","Ruggio, Thomas P. & Kimberly",,,4809,"Monte Vista Lane","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4809,"Spanish Moss Drive","McKinney","TX",75070,"4809 Spanish Moss Drive (02014-1030)","Judy W. Gachoka & Peter N. Kanyoro",,,4809,"Spanish Moss Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4809,"Sunflower Drive","McKinney","TX",75070,"4809 Sunflower Drive (00274-9149)","Audish, Steven & Amelia",,,4809,"Sunflower Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4810,"Highlands Drive","McKinney","TX",75070,"4810 Highlands Drive (02103-0110)","American Homes  4 Rent","(702) 960-1720","hoa@ah4r.com",280,"ilot Road Suite 200-AM","Las Vegas","NV",89119
+"Eldorado Heights Phase 1 HOA, Inc.",4810,"Redwood Drive","McKinney","TX",75070,"4810 Redwood Drive (00287-1541)","Lostao, Julio & Blanca",,,4810,"Redwood Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4810,"Sunflower Drive","McKinney","TX",75070,"4810 Sunflower Drive (00270-7589)","Headley, James","(214) 808-6924","jandbheadley@yahoo.com",4810,"Sunflower Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4811,"Sunflower Drive","McKinney","TX",75070,"4811 Sunflower Drive (02017-0728)","Daniel & Rachael Lynch",,,4811,"Sunflower Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4812,"Basil Drive","McKinney","TX",75070,"4812 Basil Drive (02015-0615)","James G. Lassiter",,,4812,"Basil Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4812,"Highlands Drive","McKinney","TX",75070,"4812 Highlands Drive (02013-0501)","Kapar Legacy, LLC",,,7617,"Brownley Pl","Plano","TX",75025
+"Eldorado Heights Phase 1 HOA, Inc.",4812,"Monte Vista Lane","McKinney","TX",75070,"4812 Monte Vista Lane (00271-1180)","Harris, Kristofor & Jessica",,"kjharris1123@gmail.com",4812,"Monte Vista Lane","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4812,"Redwood Drive","McKinney","TX",75070,"4812 Redwood Drive (02015-0515)","Raymond Chavez",,,4812,"Redwood Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4812,"Spanish Moss Drive","McKinney","TX",75070,"4812 Spanish Moss Drive (00270-6195)","Millis, T. Jr & Ginger",,,4812,"Spanish Moss Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4812,"Sunflower Drive","McKinney","TX",75070,"4812 Sunflower Drive (02016-1128)","Joshua Eric & Maneeka Brooke Armstrong",,,4812,"Sunflower Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4813,"Basil Drive","McKinney","TX",75070,"4813 Basil Drive (02016-0928)","Lawrence Andrew & Jo Ellen Malott",,,4813,"Basil Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4813,"Highlands Drive","McKinney","TX",75070,"4813 Highlands Drive (00271-0372)","Ash, Kenneth N.","(214) 544-5508","kenneth_ash@yahoo.com",4813,"Highlands Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4813,"Monte Vista Lane","McKinney","TX",75070,"4813 Monte Vista Lane (00270-5950)","Morefield, Jean Wilson",,,4813,"Monte Vista Lane","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4813,"Spanish Moss Drive","McKinney","TX",75070,"4813 Spanish Moss Drive (00271-1025)","Hanson, Cathy C.",,,4813,"Spanish Moss Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4813,"Sunflower Drive","McKinney","TX",75070,"4813 Sunflower Drive (02016-0802)","Anum Hassan",,,4813,"Sunflower Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4814,"Highlands Drive","McKinney","TX",75070,"4814 Highlands Drive (02017-1214)","Lanh Bui & Oanh Tran",,,4814,"Highlands Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4814,"Redwood Drive","McKinney","TX",75070,"4814 Redwood Drive (02016-0725)","Phillip Nevada",,,4814,"Redwood Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4814,"Sunflower Drive","McKinney","TX",75070,"4814 Sunflower Drive (00270-7602)","Hill, Christopher","(214) 444-3064","chris@ehill.net",4814,"Sunflower Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4815,"Sunflower Drive","McKinney","TX",75070,"4815 Sunflower Drive (00270-7631)","Contreras, Francisco",,,4815,"Sunflower Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4816,"Basil Drive","McKinney","TX",75070,"4816 Basil Drive (00271-0453)","Nguyen, Tuan Anh & Kim",,,4816,"Basil Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4816,"Highlands Drive","McKinney","TX",75070,"4816 Highlands Drive (2012-0001)","Esnat Mfuni",,,4816,"Highlands Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4816,"Monte Vista Lane","McKinney","TX",75070,"4816 Monte Vista Lane (02016-0913)","Sharon Darby",,,4816,"Monte Vista Lane","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4816,"Redwood Drive","McKinney","TX",75070,"4816 Redwood Drive (02014-1105)","Weibin Yang & Jiawen Zhang",,,5636,"Saint Peter Drive","Plano","TX",75093
+"Eldorado Heights Phase 1 HOA, Inc.",4816,"Spanish Moss Drive","McKinney","TX",75070,"4816 Spanish Moss Drive (02012-1102)","Manwing Fong",,,4437,"Orchard Gate Drive","Plano","TX",75024
+"Eldorado Heights Phase 1 HOA, Inc.",4816,"Sunflower Drive","McKinney","TX",75070,"4816 Sunflower Drive (00281-3839)","Espinosa, Leopoldo & Olivia",,"losespinosag@sbcglobal.net",4816,"Sunflower Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4817,"Basil Drive","McKinney","TX",75070,"4817 Basil Drive (00294-1400)","Brian & Danielle Sims","(214) 538-7527","Anckerd@yahoo.com",4817,"Basil Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4817,"Highlands Drive","McKinney","TX",75070,"4817 Highlands Drive (00271-0369)","Rivera, E. Miguel & Josefina",,,4817,"Highlands Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4817,"Monte Vista Lane","McKinney","TX",75070,"4817 Monte Vista Lane (00270-5976)","Frost, Inggit S. & Yuk",,,4817,"Monte Vista Lane","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4817,"Spanishmoss Drive","McKinney","TX",75070,"4817 Spanishmoss Drive (02018-0108)","Imron Khatib",,,4817,"Spanishmoss Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4817,"Sunflower Drive","McKinney","TX",75070,"4817 Sunflower Drive (00291-9953)","Ashley Wiginton",,,4817,"Sunflower Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4818,"Highlands Drive","McKinney","TX",75070,"4818 Highlands Drive (02016-1006)","Sokol Gorenca",,,4818,"Highlands Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4818,"Redwood Drive","McKinney","TX",75070,"4818 Redwood Drive (00270-9273)","Barkman, John & Sheryl",,,808,"ark T Drive,","Brenham","TX",77833
+"Eldorado Heights Phase 1 HOA, Inc.",4820,"Basil Drive","McKinney","TX",75070,"4820 Basil Drive (00271-0479)","Shelly Scordo",,,4820,"Basil Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4820,"Monte Vista Lane","McKinney","TX",75070,"4820 Monte Vista Lane (02016-1219)","Caleb and Elizabeth Johnson",,,4820,"Monte Vista Lane","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4820,"Spanish Moss Drive","McKinney","TX",75070,"4820 Spanish Moss Drive (00270-6153)","Moussa, Mohammed",,,4820,"Spanish Moss Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4821,"Basil Drive","McKinney","TX",75070,"4821 Basil Drive (00271-1119)","Pylate, Sarah","(214) 850-7719","sarahshair@hotmail.com",4821,"Basil Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4821,"Highlands Drive","McKinney","TX",75070,"4821 Highlands Drive (00271-0356)","Bybee, Ross & Mary",,,4821,"Highlands Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4821,"Monte Vista Lane","McKinney","TX",75070,"4821 Monte Vista Lane (02017-0726)","Craig A & Ashley E Smith",,,4821,"Monte Vista Lane","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4821,"Spanish Moss Drive","McKinney","TX",75070,"4821 Spanish Moss Drive (00271-1009)","Hargrave, Cheryl",,,1000,"Warren Drive","Prosper","TX",75078
+"Eldorado Heights Phase 1 HOA, Inc.",4824,"Basil Drive","McKinney","TX",75070,"4824 Basil Drive (00271-0482)","Wade, Richard B & Pat",,,4824,"Basil Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4824,"Monte Vista Lane","McKinney","TX",75070,"4824 Monte Vista Lane (02017-0822)","Miguel A Figueroa Villanueva & Ileana Hernandez",,,4824,"Monte Vista Lane","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4824,"Spanish Moss Drive","McKinney","TX",75070,"4824 Spanish Moss Drive (02014-0903)","Dolores Collier",,,4824,"Spanish Moss Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4825,"Basil Drive","McKinney","TX",75070,"4825 Basil Drive (02015-0716)","Christopher L. Brandon",,,4825,"Basil Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4825,"Monte Vista Lane","McKinney","TX",75070,"4825 Monte Vista Lane (00270-6001)","Everett-Bullington, Carla",,,4825,"Monte Vista Lane","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4825,"Spanish Moss Drive","McKinney","TX",75070,"4825 Spanish Moss Drive (00271-0990)","Sandell, Robert & Mary",,,4825,"Spanish Moss Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4828,"Monte Vista Lane","McKinney","TX",75070,"4828 Monte Vista Lane (02014-0603)","Brandy Ventures, LLC",,,5729,"Lebanon Rd #144
+Box 331","Frisco","TX",75034
+"Eldorado Heights Phase 1 HOA, Inc.",4828,"Spanish Moss Drive","McKinney","TX",75070,"4828 Spanish Moss Drive (00270-6111)","Spindle, M. Scott & Stacy",,,4828,"Spanish Moss Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4829,"Monte Vista Lane","McKinney","TX",75070,"4829 Monte Vista Lane (2012-0004)","Natraj Bontha","(817) 965-4291","nat2k5us@gmail.com",4829,"Monte Vista Lane","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4829,"Spanish Moss Drive","McKinney","TX",75070,"4829 Spanish Moss Drive (00271-0987)","Busby, Hershel & Carolyn",,,4829,"Spanish Moss Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4832,"Spanish Moss Drive","McKinney","TX",75070,"4832 Spanish Moss Drive (00270-6085)","Rice, Jon & Stacy",,,4832,"Spanish Moss Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4833,"Monte Vista Lane","McKinney","TX",75070,"4833 Monte Vista Lane (00294-5464)","Jeffrey & Jalynn Mitchell",,,4833,"Monte Vista Lane","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4833,"Spanish Moss Drive","McKinney","TX",75070,"4833 Spanish Moss Drive (00271-0974)","Gray, Connie M.","(972) 569-8909",,4833,"Spanish Moss Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4836,"Spanish Moss Drive","McKinney","TX",75070,"4836 Spanish Moss Drive (00270-6056)","Peterson, Ronnie Fredric",,,4836,"Spanish Moss Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4837,"Spanish Moss Drive","McKinney","TX",75070,"4837 Spanish Moss Drive (00271-0961)","Kathleen Burns Edwards",,,4837,"Spanish Moss Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4841,"Spanish Moss Drive","McKinney","TX",75070,"4841 Spanish Moss Drive (00284-2460)","Gibbs, Lisa M & James S","(214) 240-9482","2lisagibbs@gmail.com",4841,"Spanish Moss Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4845,"Spanish Moss Drive","McKinney","TX",75070,"4845 Spanish Moss Drive (02016-0728)","Andrew & Crystal Kephart",,,4845,"Spanish Moss Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4900,"Basil Drive","McKinney","TX",75070,"4900 Basil Drive (02016-0815)","Chan-Ming & Ya-Ting Yang",,,2029,"Hawken Drive","Plano","TX",75023
+"Eldorado Heights Phase 1 HOA, Inc.",4900,"Monte Vista Lane","McKinney","TX",75070,"4900 Monte Vista Lane (00271-0657)","Alexander, Ernest & Nancy",,,4900,"Monte Vista Lane","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4900,"Redwood Drive","McKinney","TX",75070,"4900 Redwood Drive (00275-6789)","Isom, Raymond L.","(469) 765-6680","vibrosrv@yahoo.com",4900,"Redwood Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4900,"Spanish Moss Drive","McKinney","TX",75070,"4900 Spanish Moss Drive (0271-0796)","Harp, James M & Holly L","(214) 934-6357","firstbass1966@yahoo.com",4900,"Spanish Moss Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4901,"Basil Drive","McKinney","TX",75070,"4901 Basil Drive (00271-0644)","Ellingburg, Susan",,,4901,"Basil Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4901,"Highlands Drive","McKinney","TX",75070,"4901 Highlands Drive (00279-0033)","Raab, Amy S. & Jason C.","(318) 503-2813","aashields@hotmail.com",4901,"Highlands Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4901,"Monte Vista Lane","McKinney","TX",75070,"4901 Monte Vista Lane (00271-0783)","Harvey, Shannon",,,4901,"Monte Vista Lane","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4901,"Silverweed Drive","McKinney","TX",75070,"4901 Silverweed Drive (00271-1371)","Young, Hebert & Sandy",,,4901,"Silverweed Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4901,"Spanish Moss Drive","McKinney","TX",75070,"4901 Spanish Moss Drive (00277-3568)","McNeely, John A & Jacqueline K",,,4901,"Spanish Moss Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4902,"Redwood Drive","McKinney","TX",75070,"4902 Redwood Drive (02017-1130)","Zakir & Daisy Hosneara Ahmed",,,4902,"Redwood Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4903,"Silverweed Drive","McKinney","TX",75070,"4903 Silverweed Drive (00271-1355)","Grant, Robert",,,9708,"Summer Lane","Frisco","TX",75035
+"Eldorado Heights Phase 1 HOA, Inc.",4904,"Basil Drive","McKinney","TX",75070,"4904 Basil Drive (00271-0505)","Wang, Ling & James Wu",,,3204,"Sliding Rock Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4904,"Monte Vista Lane","McKinney","TX",75070,"4904 Monte Vista Lane (00271-0660)","Hazzard, Anthony & Sydney","(510) 681-8832","tigerlaw@sbcglobal.net",4904,"Monte Vista Lane","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4904,"Redwood Drive","McKinney","TX",75070,"4904 Redwood Drive (00270-9367)","Franco, James","(469) 371-6834","utaee1992@gmail.com",4904,"Redwood Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4904,"Spanish Moss Drive","McKinney","TX",75070,"4904 Spanish Moss Drive (02014-0612)","Monk, Benjamin & Alicia",,,4904,"Spanish Moss Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4905,"Basil Drive","McKinney","TX",75070,"4905 Basil Drive (00271-0631)","Goddard, Harriet",,,4905,"Basil Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4905,"Highlands Drive","McKinney","TX",75070,"4905 Highlands Drive (00271-0330)","Huber, Wilma",,,4905,"Highlands Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4905,"Monte Vista Lane","McKinney","TX",75070,"4905 Monte Vista Lane (00271-0770)","Poltl, Edward J.","(972) 971-4683","epoltl@tx.rr.com",4905,"Monte Vista Lane","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4905,"Redwood Drive","McKinney","TX",75070,"4905 Redwood Drive (02014-0829)","Craig T. & Stephanie A. Williams",,,4905,"Redwood Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4905,"Silverweed Drive","McKinney","TX",75070,"4905 Silverweed Drive (02016-0614)","Stephen Trent & Stephanie Ramsey Davis",,,4905,"Silverweed Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4905,"Spanish Moss Drive","McKinney","TX",75070,"4905 Spanish Moss Drive (00271-0916)","Mohler, Richard","(214) 621-7267","rmohler29@gmail.com",4905,"Spanish Moss Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4906,"Redwood Drive","McKinney","TX",75070,"4906 Redwood Drive (00280-5766)","Williams, Suzette L.","(214) 592-5589","suzettewill@yahoo.com",4906,"Redwood Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4906,"Silverweed Drive","McKinney","TX",75070,"4906 Silverweed Drive (00271-1481)","Kelley, Jeffrey L & Candace B",,,4906,"Silverweed Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4907,"Redwood Drive","McKinney","TX",75070,"4907 Redwood Drive (00271-1672)","Simmons, Michael & Melissa",,,4907,"Redwood Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4907,"Silverweed Drive","McKinney","TX",75070,"4907 Silverweed Drive (00271-1313)","Garza, Gary & Elia Silvestre","(972) 658-5039","ggarza23@att.net",4907,"Silverweed Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4908,"Basil Drive","McKinney","TX",75070,"4908 Basil Drive (00271-0518)","Kile, Roy & Nancy",,,4908,"Basil Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4908,"Monte Vista Lane","McKinney","TX",75070,"4908 Monte Vista Lane (00271-0673)","Bell, Christopher & Tracie",,,4908,"Monte Vista Lane","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4908,"Redwood Drive","McKinney","TX",75070,"4908 Redwood Drive (00270-9396)","Padilla, Leonard","(972) 804-9039","joepadilla1971@yahoo.com",4908,"Redwood Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4908,"Silverweed Drive","McKinney","TX",75070,"4908 Silverweed Drive (00271-1494)","Kukowski, Klomah",,,4908,"Silverweed Drive","McKiney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4908,"Spanish Moss Drive","McKinney","TX",75070,"4908 Spanish Moss Drive (00271-0819)","McCarty, Don & Janette","(972) 540-6658",,4908,"Spanish Moss Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4909,"Basil Drive","McKinney","TX",75070,"4909 Basil Drive (02017-0828)","Tammy M Tyree",,,1905,"Queensbridge Court","Keller","TX",76262
+"Eldorado Heights Phase 1 HOA, Inc.",4909,"Highlands Drive","McKinney","TX",75070,"4909 Highlands Drive (00271-0327)","Fox, Michael & Peggy",,,4909,"Highlands Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4909,"Monte Vista Lane","McKinney","TX",75070,"4909 Monte Vista Lane (00271-0767)","Valleau, Michael",,,4909,"Monte Vista Lane","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4909,"Redwood Drive","McKinney","TX",75070,"4909 Redwood Drive (02013-0702)","Serafin & Quynh Nhu Soto",,,4909,"Redwood Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4909,"Silverweed Drive","McKinney","TX",75070,"4909 Silverweed Drive (00292-8151)","Mary Jean Haynie",,,4909,"Silverweed Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4909,"Spanish Moss Drive","McKinney","TX",75070,"4909 Spanish Moss Drive (00271-0903)","Shambo, J. Peter & Gabriela",,,4909,"Spanish Moss Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4910,"Redwood Drive","McKinney","TX",75070,"4910 Redwood Drive (00270-9419)","Mathey, John K. & Christine A.",,,4910,"Redwood Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4910,"Silverweed Drive","McKinney","TX",75070,"4910 Silverweed Drive (00271-1504)","Murray, Michael",,,601,"raxton Court","McKinney","TX",75071
+"Eldorado Heights Phase 1 HOA, Inc.",4911,"Redwood Drive","McKinney","TX",75070,"4911 Redwood Drive (00271-1630)","Smith, Forest & Holly",,,1024," Olivia","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4911,"Silverweed Drive","McKinney","TX",75070,"4911 Silverweed Drive (00271-1290)","Kim, Jae","(214) 385-3886","jkimbap@gmail.com",4911,"Silverweed Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4912,"Basil Drive","McKinney","TX",75070,"4912 Basil Drive (02013-0731)","Joyce Bryan",,,4912,"Basil Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4912,"Monte Vista Lane","McKinney","TX",75070,"4912 Monte Vista Lane (00271-0686)","Starkey, Gregory & Victoria",,,4912,"Monte Vista Lane","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4912,"Redwood Drive","McKinney","TX",75070,"4912 Redwood Drive (00270-9435)","Johansen, Brian & Jennifer",,,4912,"Redwood Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4912,"Silverweed Drive","McKinney","TX",75070,"4912 Silverweed Drive (02017-0712)","Marcus Ashley & Jade Cunningham",,,4912,"Silverweed Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4912,"Spanish Moss Drive","McKinney","TX",75070,"4912 Spanish Moss Drive (02016-1228)","Hasan & Jacquline S, Naeem",,,4912,"Spanish Moss Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4913,"Basil Drive","McKinney","TX",75070,"4913 Basil Drive (00279-9568)","Binnings, Jim",,,4913,"Basil Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4913,"Highlands Drive","McKinney","TX",75070,"4913 Highlands Drive (00271-0314)","Silvia, Jeffrey & Lynn Salo",,,4913,"Highlands Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4913,"Monte Vista Lane","McKinney","TX",75070,"4913 Monte Vista Lane (02015-1026)","Chan Ming & Ya Ting Yang",,,2029,"Hawken Drive","Plano","TX",75023
+"Eldorado Heights Phase 1 HOA, Inc.",4913,"Redwood Drive","McKinney","TX",75070,"4913 Redwood Drive (02014-1031)","Brian Michael Gamm & Nino Gordeladze","(216) 401-0653","bmgamm@gmail.com",4913,"Redwood Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4913,"Silverweed Drive","McKinney","TX",75070,"4913 Silverweed Drive (00290-8579)","Durbin, Kevin & Nikkie",,,4913,"Silverweed Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4913,"Spanish Moss Drive","McKinney","TX",75070,"4913 Spanish Moss Drive (00271-0893)","Mauro, Chris & Tracy Ann",,,4913,"Spanish Moss Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4914,"Redwood Drive","McKinney","TX",75070,"4914 Redwood Drive (00270-9448)","LeJeune, Timothy & Cynthia",,,4914,"Redwood Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4914,"Silverweed Drive","McKinney","TX",75070,"4914 Silverweed Drive (00271-1533)","Sexton, Corey & Paulette",,,4914,"Silverweed Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4915,"Redwood Drive","McKinney","TX",75070,"4915 Redwood Drive (00292-6454)","Charles & Elba Simokat",,,4915,"Redwood Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4915,"Silverweed Drive","McKinney","TX",75070,"4915 Silverweed Drive (00271-1274)","Johnson, Robert & Suzanne",,,4915,"Silverweed Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4916,"Basil Drive","McKinney","TX",75070,"4916 Basil Drive (02018-0123)","Martin D & Susan Nell",,,4916,"Basil Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4916,"Monte Vista Lane","McKinney","TX",75070,"4916 Monte Vista Lane (00271-0699)","Whitten, Donald & Charlotte",,"donwhitten@gmail.com",4916,"Monte Vista Lane","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4916,"Redwood Drive","McKinney","TX",75070,"4916 Redwood Drive (02013-1002)","Chintala, Venkata N. & Deepika Yegireddi",,,5860,"Midnight Moon Dr","Frisco","TX",75034
+"Eldorado Heights Phase 1 HOA, Inc.",4916,"Silverweed Drive","McKinney","TX",75070,"4916 Silverweed Drive (00271-1559)","Earnhart, Michael","(972) 467-2012","m.earnhart@att.net",4916,"Silverweed Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4916,"Spanish Moss Drive","McKinney","TX",75070,"4916 Spanish Moss Drive (00271-0835)","Falco, Gian & Amy",,,8992,"Preston Road Ste 110-234","Frisco","TX",75034
+"Eldorado Heights Phase 1 HOA, Inc.",4917,"Basil Drive","McKinney","TX",75070,"4917 Basil Drive (02014-0731)","Conrad Properties, LLC",,,4221,"Preston Rd Ste. 200","Frisco","TX",75034
+"Eldorado Heights Phase 1 HOA, Inc.",4917,"Highlands Drive","McKinney","TX",75070,"4917 Highlands Drive (00271-0301)","Trinh, James",,,4412,"Turnberry Court","Plano","TX",75024
+"Eldorado Heights Phase 1 HOA, Inc.",4917,"Monte Vista Lane","McKinney","TX",75070,"4917 Monte Vista Lane (00271-0741)","Beaubouef, Robert & Donna",,,4917,"Monte Vista Lane","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4917,"Redwood Drive","McKinney","TX",75070,"4917 Redwood Drive (02014-0620)","Ryan Sweat",,,4917,"Redwood Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4917,"Silverweed Drive","McKinney","TX",75070,"4917 Silverweed Drive (00271-1261)","Wang, Yu-Wen",,,3456,"White River Drive","Plano","TX",75025
+"Eldorado Heights Phase 1 HOA, Inc.",4917,"Spanish Moss Drive","McKinney","TX",75070,"4917 Spanish Moss Drive (00271-0880)","Trotter, Clint & Amy B.",,,4917,"Spanish Moss Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4918,"Redwood Drive","McKinney","TX",75070,"4918 Redwood Drive (02013-0719)","Dorothy J. and Jason T. Vaccarezza","(210) 643-2139","djvaccarezza@gmail.com",4918,"Redwood Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4918,"Silverweed Drive","McKinney","TX",75070,"4918 Silverweed Drive (00271-1562)","Knott, Michael L & Tonya L","(214) 797-1457","tl.knott@tx.rr.com",4918,"Silverweed Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4919,"Redwood Drive","McKinney","TX",75070,"4919 Redwood Drive (00292-6467)","Steve & Stephanie Aldaco","(469) 544-2857","steffilily@gmail.com",4919,"Redwood Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4919,"Silverweed Drive","McKinney","TX",75070,"4919 Silverweed Drive (02015-1014)","Bruce Dixon Henley",,,4919,"Silverweed Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4920,"Basil Drive","McKinney","TX",75070,"4920 Basil Drive (02017-0816)","Josh & Stacie Winsor",,,4920,"Basil Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4920,"Monte Vista Lane","McKinney","TX",75070,"4920 Monte Vista Lane (00271-0709)","Mills, James & Jo Ann",,,4920,"Monte Vista Lane","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4920,"Redwood Drive","McKinney","TX",75070,"4920 Redwood Drive (02015-0914)","Nicolas R.Cate & Claudia M. Benitez",,,4920,"Redwood Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4920,"Silverweed Drive","McKinney","TX",75070,"4920 Silverweed Drive (00271-1575)","Smith, Eugene & Marshella","(469) 667-0533","treyday27@sbcglobal.net",4920,"Silverweed Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4920,"Spanish Moss Drive","McKinney","TX",75070,"4920 Spanish Moss Drive (02017-0105)","Ashley Lane & Tawny McCowan",,,4920,"Spanish Moss Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4921,"Basil Drive","McKinney","TX",75070,"4921 Basil Drive (00289-2795)","Belen, Katrina Esherick",,,4921,"Basil Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4921,"Highlands Drive","McKinney","TX",75070,"4921 Highlands Drive (00271-0291)","Mohan, Rakesh & Veena Sharma",,,4921,"Highlands Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4921,"Monte Vista Lane","McKinney","TX",75070,"4921 Monte Vista Lane (00271-0738)","Doughtry, Charles & Aminika",,,4921,"Monte Vista Lane","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4921,"Redwood Drive","McKinney","TX",75070,"4921 Redwood Drive (00271-1478)","Moutry, Anthony & Rhonda","(512) 843-4470","tonymoutry1@att.net",2406,"Cayenne Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4921,"Silverweed Drive","McKinney","TX",75070,"4921 Silverweed Drive (00271-1232)","Stanfield, Jeffrey & John Shrum","(972) 743-9626","jeff.kevin@sbcglobal.net",4921,"Silverweed Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4921,"Spanish Moss Drive","McKinney","TX",75070,"4921 Spanish Moss Drive (02017-0403)","Dennis P.  & Amy Bennett",,,4921,"Spanish Moss Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4922,"Redwood Drive","McKinney","TX",75070,"4922 Redwood Drive (02016-0907)","Hak Hyun Jung & Hee Jin Kim",,,4922,"Redwood Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4922,"Silverweed Drive","McKinney","TX",75070,"4922 Silverweed Drive (00271-1591)","Crane, Robert","(972) 672-3349","rcrane@ismartbase.com",703,"eading Cir","Lansdale","PA",19446
+"Eldorado Heights Phase 1 HOA, Inc.",4923,"Redwood Drive","McKinney","TX",75070,"4923 Redwood Drive (00271-1452)","McCurley, Ursula",,,4923,"Redwood Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4923,"Silverweed Drive","McKinney","TX",75070,"4923 Silverweed Drive (00271-1656)","Tasby, Anthony",,"fuqualori@gmail.com",4923,"Silverweed Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4924,"Basil Drive","McKinney","TX",75070,"4924 Basil Drive (00271-0550)","Marcell, Arreva","(972) 529-9891","mmsqrd@yahoo.com",4924,"Basil Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4924,"Monte Vista Lane","McKinney","TX",75070,"4924 Monte Vista Lane (00271-0712)","Slippen, Stuart & Larri",,,4924,"Monte Vista Lane","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4924,"Redwood Drive","McKinney","TX",75070,"4924 Redwood Drive (02014-0808)","Chiang Kuang Yu & Yung Ning Chang",,,8405,"Beatton Court","Plano","TX",75025
+"Eldorado Heights Phase 1 HOA, Inc.",4924,"Silverweed Drive","McKinney","TX",75070,"4924 Silverweed Drive (00271-1601)","St.Leon, John & Susie",,,4924,"Silverweed Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4924,"Spanish Moss Drive","McKinney","TX",75070,"4924 Spanish Moss Drive (00271-0851)","Nations, William & Celeste Lisa",,,4924,"Spanish Moss Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4925,"Basil Drive","McKinney","TX",75070,"4925 Basil Drive (00271-0589)","Sara Ellen Wright","(972) 542-1934",,4925,"Basil Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4925,"Highlands Drive","McKinney","TX",75070,"4925 Highlands Drive (00271-0288)","Hill, Stanley & Cheunjit",,,4925,"Highlands Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4925,"Monte Vista Lane","McKinney","TX",75070,"4925 Monte Vista Lane (00271-0725)","Ahsam, Joseph & Sharon",,,4925,"Monte Vista Lane","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4925,"Silverweed Drive","McKinney","TX",75070,"4925 Silverweed Drive (00271-1643)","Asiatico, Steve & Virginia","(972) 849-3706","steve@asiatico.net",4925,"Silverweed Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4925,"Spanish Moss Drive","McKinney","TX",75070,"4925 Spanish Moss Drive (00271-0864)","Thompson, Melvin D.",,,1800," Wilmer Porter Ct","Dumfries","VA",22026
+"Eldorado Heights Phase 1 HOA, Inc.",4926,"Silverweed Drive","McKinney","TX",75070,"4926 Silverweed Drive (00271-1627)","Page, S. & G. De La Cruz",,,4926,"Silverweed Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4928,"Basil Drive","McKinney","TX",75070,"4928 Basil Drive (00271-0563)","Rocholl, William Shane","(469) 396-7571","Shanerock54@gmail.com",4928,"Basil Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4929,"Basil Drive","McKinney","TX",75070,"4929 Basil Drive (00271-0576)","Rhodes, Jerry",,,4929,"Basil Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4929,"Highlands Drive","McKinney","TX",75070,"4929 Highlands Drive (02016-0413)","Julie Hudson",,,4929,"Highlands Drive","McKinney","TX",75070
+"Eldorado Heights Phase 1 HOA, Inc.",4933,"Highlands Drive","McKinney","TX",75070,"4933 Highlands Drive (00271-0262)","Buikema, Brad",,,4933,"Highlands Drive","McKinney","TX",75070

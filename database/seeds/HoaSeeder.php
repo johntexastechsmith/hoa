@@ -36,6 +36,7 @@ class HoaSeeder extends Seeder
 
             $hoa = Hoa::where('name', $record['hoa'])->first();
 
+            // if Hoa doesn't exist create new one
             if (($hoa instanceof Hoa) === false) {
                 $hoa = Hoa::create([
                     'name' => $record['hoa'],
@@ -48,22 +49,21 @@ class HoaSeeder extends Seeder
             }
 
             $owner = Owner::create([
-                'account_name' => $faker->bankAccountNumber,
-                'first_name' => $faker->firstName,
-                'last_name' => $faker->lastName,
-                'phone_number' => $faker->phoneNumber,
-                'email_address' => $faker->safeEmail,
+                'account_name' => $record['account_name'],
+                'name' => $record['name'],
+                'phone_number' => $record['phone_number'],
+                'email_address' => $record['email_address'],
                 'active' => true,
                 'hoa_id' => $hoa->id
             ]);
 
             OwnerAddress::create([
                 'owner_id' => $owner->id,
-                'street_number' => $record['street_number'],
-                'street_name' => $record['street_name'],
-                'city' => $record['city'],
-                'state' => $record['state'],
-                'zip' => $record['zip'],
+                'street_number' => $record['owner_address_street_number'],
+                'street_name' => $record['owner_address_street_name'],
+                'city' => $record['owner_address_city'],
+                'state' => $record['owner_address_state'],
+                'zip' => $record['owner_address_zip'],
                 'in_use' => true
             ]);
 

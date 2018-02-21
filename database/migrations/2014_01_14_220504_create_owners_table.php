@@ -17,8 +17,7 @@ class CreateOwnersTable extends Migration
             $table->increments('id');
             $table->integer('hoa_id');
             $table->text('account_name');
-            $table->text('first_name');
-            $table->text('last_name');
+            $table->text('name');
             $table->text('phone_number');
             $table->text('email_address');
             $table->boolean('active');
