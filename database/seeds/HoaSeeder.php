@@ -24,7 +24,7 @@ class HoaSeeder extends Seeder
 
         $faker = $faker = Faker\Factory::create();
 
-        $path = storage_path('loaders/OwnerPropertiesLoadFile.csv');
+        $path = storage_path('loaders/PartialOwnerPropertiesLoadFile.csv');
 
         //load the CSV document from a file path
         $csv = Reader::createFromPath($path, 'r');
