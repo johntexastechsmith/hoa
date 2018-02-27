@@ -13,6 +13,12 @@ class HoaController extends Controller
 
     public function index()
     {
+        $user = \Auth::user();
+       
+        if($user->isBoardMember()) {
+            return redirect()->route('boardmember.index');
+        }
+
         $hoas = Hoa::all()->sortBy('name');
 
         return view('hoa.index', ['hoas' => $hoas]);

@@ -34,7 +34,15 @@ class UserSeeder extends Seeder
             'board_member_id' => $boardmember->id,
         ]);
 
+        echo $user['name'] . PHP_EOL;
 
-        echo $boardmember['name'] . PHP_EOL;
+        $user = User::create([
+            'name' => 'Kelly Bohl',
+            'email' => 'bohl@domain.com',
+            'password' => bcrypt('password'),
+            'owner_id' => '4',
+        ]);
+
+        echo $user['name'] . PHP_EOL;
     }
 }

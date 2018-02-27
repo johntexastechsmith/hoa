@@ -19,12 +19,12 @@ class BoardMemberController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request)
     {
-        $hoa = Hoa::findOrFail($request->session()->get('hoa_id'));
-        $owners = $hoa->boardmembers()->get();
+        $hoas = Hoa::all()->sortBy('name');
 
-        return view('boardmember.index', ['hoa' => $hoa, 'boardmembers' => $boardmembers]);    }
+        return view('boardmember.index', ['hoas' => $hoas]);    
+    }
 
     /**
      * Show the form for creating a new resource.

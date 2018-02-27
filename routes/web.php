@@ -50,6 +50,14 @@ Route::prefix('hoa')->group(function () {
 });
 
 /**
+ * HOA Routes
+ */
+Route::prefix('boardmember')->group(function () {
+
+    Route::get('/', 'BoardMemberController@index')->name('boardmember.index');
+    });
+
+/**
  * Property Routes
  */
 Route::prefix('properties')->group(function () {
