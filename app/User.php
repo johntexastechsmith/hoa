@@ -58,7 +58,7 @@ class User extends Authenticatable
     }
 
     /**
-    * gets the board member if user is a baord member.
+    * gets the board member if user is a board member.
     *
     * @return BoardMember|null
     */
@@ -66,4 +66,19 @@ class User extends Authenticatable
     {
         return $this->belongsTo(BoardMember::class);
     }   
+
+    /**
+     * tests if the user is a boardmember
+     *
+     * @return bool
+     */
+    public function isBoardMember()
+    {
+        if ($this->boardmember() instanceof BoardMember) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
 }
