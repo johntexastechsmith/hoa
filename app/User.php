@@ -74,10 +74,10 @@ class User extends Authenticatable
      */
     public function isComplianceOfficer()
     {
-        if ($this->complianceOfficer() instanceof ComplianceOfficer) {
+        if ($this->complianceOfficer instanceof ComplianceOfficer) {
             return true;
-        } else {
-            return false;
         }
+
+        return false;
     }
 }
