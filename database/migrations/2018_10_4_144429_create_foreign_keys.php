@@ -13,8 +13,16 @@ class CreateForeignKeys extends Migration
      */
     public function up()
     {
+        Schema::table('compliance_officers', function (Blueprint $table) {
+            $table->foreign('hoa_id')->references('id')->on('hoa')->onDelete('cascade');
+        });
+
         Schema::table('owners', function (Blueprint $table) {
             $table->foreign('hoa_id')->references('id')->on('hoa')->onDelete('cascade');
+        });
+
+        Schema::table('users', function (Blueprint $table) {
+            $table->foreign('compliance_officer_id')->references('id')->on('compliance_officers')->onDelete('cascade');
         });
 
         Schema::table('users', function (Blueprint $table) {
@@ -64,8 +72,16 @@ class CreateForeignKeys extends Migration
      */
     public function down()
     {
+        Schema::table('compliance_officers', function (Blueprint $table) {
+            $table->dropForeign('owners_hoa_id_foreign');
+        });
+
         Schema::table('owners', function (Blueprint $table) {
             $table->dropForeign('owners_hoa_id_foreign');
+        });
+
+        Schema::table('users', function (Blueprint $table) {
+            $table->dropForeign('users_compliance_officers_id_foreign');
         });
 
         Schema::table('users', function (Blueprint $table) {

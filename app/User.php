@@ -62,7 +62,7 @@ class User extends Authenticatable
     *
     * @return BoardMember|null
     */
-    public function boardmember()
+    public function boardMember()
     {
         return $this->belongsTo(BoardMember::class);
     }   
@@ -74,11 +74,34 @@ class User extends Authenticatable
      */
     public function isBoardMember()
     {
-        if ($this->boardmember() instanceof BoardMember) {
+        if ($this->boardMember instanceof BoardMember) {
             return true;
-        } else {
-            return false;
         }
+
+        return false;
     }
 
+    /**
+     * gets the ComplianceOfficer entity if user is a Compliance Officer.
+     *
+     * @return ComplianceOfficer|null
+     */
+    public function complianceOfficer()
+    {
+        return $this->belongsTo(ComplianceOfficer::class);
+    }
+
+    /**
+     * Check if User is a Compliance Officer
+     *
+     * @return bool
+     */
+    public function isComplianceOfficer()
+    {
+        if ($this->complianceOfficer instanceof ComplianceOfficer) {
+            return true;
+        }
+
+        return false;
+    }
 }

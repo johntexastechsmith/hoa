@@ -52,14 +52,14 @@ class OwnerController extends Controller
     {
         $hoa = Hoa::findOrFail($request->session()->get('hoa_id'));
         $owner = Owner::findOrFail($id);
-        $address = $owner->address()->get();
         $property = $owner->property;
 
-        return view('owner.manage', ['owner' => $owner, 'hoa' => $hoa, 'address' => $address, 'property' => $property]);
+        return view('owner.manage', ['owner' => $owner, 'hoa' => $hoa, 'property' => $property]);
     }
 
     public function createAddress(Request $request)
     {
+        /*
         $owner = Owner::findOrFail($request->owner_id);
 
         $note = new OwnerAddress();
@@ -69,5 +69,6 @@ class OwnerController extends Controller
         $note->save();
 
         return back();
+        */
     }
 }
