@@ -103,6 +103,11 @@ Route::prefix('tickets')->group(function () {
     Route::get('/{id}/notes', 'TicketController@listNotes')->name('ticket.notes.list');
 });
 
+Route::prefix('compliance')->group(function () {
+
+    Route::get('/', 'ComplianceController@index')->name('compliance.index');
+});
+
 /**
  * Location Routes
  */

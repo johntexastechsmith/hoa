@@ -56,4 +56,28 @@ class User extends Authenticatable
     {
         return $this->belongsTo(Owner::class);
     }
+
+    /**
+     * gets the ComplianceOfficer entity if user is a Compliance Officer.
+     *
+     * @return ComplianceOfficer|null
+     */
+    public function complianceOfficer()
+    {
+        return $this->belongsTo(ComplianceOfficer::class);
+    }
+
+    /**
+     * Check if User is a Compliance Officer
+     *
+     * @return bool
+     */
+    public function isComplianceOfficer()
+    {
+        if ($this->complianceOfficer instanceof ComplianceOfficer) {
+            return true;
+        }
+
+        return false;
+    }
 }

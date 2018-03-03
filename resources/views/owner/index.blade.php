@@ -21,12 +21,10 @@
                 <tbody>
                 @foreach ($owners as $owner)
                     <tr>
-                        <td>{{ $owner->full_name }}</td>
-                        <td>{{ $owner->property->street_address }}</td>
-                        <td>
-                            <a href="{{ route('owner.manage', ['id' => $owner->id]) }}"><span class="glyphicon glyphicon-pencil"></span></a>
-                            <a href="{{ route('owner.delete', ['id' => $owner->id]) }}"><span class="glyphicon glyphicon-trash"></span></a>
-                        </td>
+                        <td>{{ $owner->name }}</td>
+                        @foreach ($owner->properties as $property)
+                            <td>{{ $property->street_address }}</td>
+                        @endforeach
                     </tr>
                 @endforeach
                 </tbody>
