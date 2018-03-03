@@ -17,11 +17,6 @@ class HoaSeeder extends Seeder
      */
     public function run()
     {
-        DB::statement('TRUNCATE owners CASCADE');
-        DB::statement('TRUNCATE owner_addresses CASCADE');
-        DB::statement('TRUNCATE properties CASCADE');
-        DB::statement('TRUNCATE hoa CASCADE');
-
         $faker = $faker = Faker\Factory::create();
 
         $path = storage_path('loaders/PartialOwnerPropertiesLoadFile.csv');

@@ -38,8 +38,12 @@ class LoginController extends Controller
      */
     protected function redirectTo()
     {
-        if (Auth::user()->isComplianceOfficer()) {
+        if (Auth::user()->isBoardMember()) {
+            //return route('compliance.index', [], false);
+        } elseif (Auth::user()->isComplianceOfficer()) {
             return route('compliance.index', [], false);
+        } elseif (Auth::user()->isComplianceOfficer()) {
+            //return route('compliance.index', [], false);
         }
 
         return route('hoa.index', [], false);

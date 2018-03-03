@@ -57,7 +57,7 @@ class Hoa extends Model
     /**
      * Get the properties in the HOA
      */
-    public function boardmembers()
+    public function boardMembers()
     {
         return $this->hasMany(BoardMember::class);
     }

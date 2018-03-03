@@ -58,6 +58,20 @@ class User extends Authenticatable
     }
 
     /**
+     * tests if the user is a owner
+     *
+     * @return bool
+     */
+    public function isOwner()
+    {
+        if ($this->owner instanceof Owner) {
+            return true;
+        }
+
+        return false;
+    }
+
+    /**
     * gets the board member if user is a board member.
     *
     * @return BoardMember|null

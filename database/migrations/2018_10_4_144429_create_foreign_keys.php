@@ -29,6 +29,10 @@ class CreateForeignKeys extends Migration
             $table->foreign('owner_id')->references('id')->on('owners')->onDelete('cascade');
         });
 
+        Schema::table('users', function (Blueprint $table) {
+            $table->foreign('board_member_id')->references('id')->on('board_members')->onDelete('cascade');
+        });
+
         Schema::table('properties', function (Blueprint $table) {
             $table->foreign('hoa_id')->references('id')->on('hoa')->onDelete('cascade');
         });
@@ -57,10 +61,6 @@ class CreateForeignKeys extends Migration
 
         Schema::table('board_members', function (Blueprint $table) {
             $table->foreign('hoa_id')->references('id')->on('hoa')->onDelete('cascade');
-        });
-
-        Schema::table('users', function (Blueprint $table) {
-            $table->foreign('board_member_id')->references('id')->on('board_members')->onDelete('cascade');
         });
 
     }
