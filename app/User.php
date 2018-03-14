@@ -58,6 +58,36 @@ class User extends Authenticatable
     }
 
     /**
+     * tests if the user is a owner
+     *
+     * @return bool
+     */
+    public function isOwner()
+    {
+        return ($this->owner instanceof Owner);
+    }
+
+    /**
+    * gets the board member if user is a board member.
+    *
+    * @return BoardMember|null
+    */
+    public function boardMember()
+    {
+        return $this->belongsTo(BoardMember::class);
+    }   
+
+    /**
+     * tests if the user is a boardmember
+     *
+     * @return bool
+     */
+    public function isBoardMember()
+    {
+        return ($this->boardMember instanceof BoardMember);
+    }
+
+    /**
      * gets the ComplianceOfficer entity if user is a Compliance Officer.
      *
      * @return ComplianceOfficer|null
@@ -74,10 +104,6 @@ class User extends Authenticatable
      */
     public function isComplianceOfficer()
     {
-        if ($this->complianceOfficer instanceof ComplianceOfficer) {
-            return true;
-        }
-
-        return false;
+        return ($this->complianceOfficer instanceof ComplianceOfficer);
     }
 }

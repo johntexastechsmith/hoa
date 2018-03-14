@@ -50,6 +50,22 @@ Route::prefix('hoa')->group(function () {
 });
 
 /**
+ * Boardmember Routes
+ */
+Route::prefix('boardmember')->group(function () {
+
+    Route::get('/', 'BoardMemberController@index')->name('boardmember.index');
+    });
+
+/**
+ * Compliance Officer Routes
+ */
+Route::prefix('compliance')->group(function () {
+
+    Route::get('/', 'ComplianceController@index')->name('compliance.index');
+    });
+
+/**
  * Property Routes
  */
 Route::prefix('properties')->group(function () {
@@ -64,7 +80,7 @@ Route::prefix('properties')->group(function () {
 
 });
 
-Route::post('/owner/create', 'OwnerController@add')->name('owner.create');
+
 
 /**
  * Owner Routes
@@ -73,7 +89,9 @@ Route::prefix('owners')->group(function () {
 
     Route::get('/', 'OwnerController@index')->name('owner.index');
 
+    Route::get('/{hoaId}/{ownerId}', 'OwnerController@show')->name('owner.show');
 
+    Route::post('/create', 'OwnerController@add')->name('owner.create');
 
     Route::get('/{id}/delete', 'OwnerController@delete')->name('owner.delete');
 
@@ -101,11 +119,6 @@ Route::prefix('tickets')->group(function () {
     Route::post('/note/create', 'TicketController@createNote')->name('ticket.note.create');
 
     Route::get('/{id}/notes', 'TicketController@listNotes')->name('ticket.notes.list');
-});
-
-Route::prefix('compliance')->group(function () {
-
-    Route::get('/', 'ComplianceController@index')->name('compliance.index');
 });
 
 /**

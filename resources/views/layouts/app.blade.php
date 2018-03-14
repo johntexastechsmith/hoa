@@ -12,14 +12,17 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    @yield('head-extra')
+
+    <div class="container-fluid">
+        <h3> {{ config('app.hoa') }} </h3>
+        @yield('head-extra')
+    </div>
 </head>
 <body>
     <div id="app">
         <nav class="navbar navbar-default navbar-static-top">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="navbar-header">
-
                     <!-- Collapsed Hamburger -->
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#app-navbar-collapse" aria-expanded="false">
                         <span class="sr-only">Toggle Navigation</span>
@@ -29,41 +32,34 @@
                     </button>
 
                     <!-- Branding Image -->
+                    <!--
                     <a class="navbar-brand" href="{{ url('/') }}">
                         {{ config('app.name', 'HOA Management') }}
                     </a>
+                    -->
+
                 </div>
 
                 <div class="collapse navbar-collapse" id="app-navbar-collapse">
                     <!-- Left Side Of Navbar -->
-                    <ul class="nav navbar-nav">
-                        &nbsp;
+                    <ul class="nav navbar-nav navbar-left">
+                        <li><a href="{{ route('hoa.index') }}">Home</a></li>
+                        <li><a href="{{ route('home') }}">Contact Us</a></li>
                     </ul>
 
                     <!-- Right Side Of Navbar -->
                     <ul class="nav navbar-nav navbar-right">
                         <!-- Authentication Links -->
                         @guest
-                            <li><a href="{{ route('login') }}">Login</a></li>
-                            <li><a href="{{ route('register') }}">Register</a></li>
+                            <li><a href="{{ route('login') }}" <span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                            <li><a href="{{ route('register') }}" <span class="glyphicon glyphicon-user"></span> Register</a></li>
                         @else
-                            @if (!empty($hoa))
-                                <li><a href="{{ route('hoa.manage', ['id' => $hoa->id]) }}">Home</a></li>
-                                <li class="dropdown">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                        HOA Settings <span class="caret"></span>
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="{{ route('quickbooks.index', ['id' => $hoa->id]) }}">Quickbooks</a></li>
-                                    </ul>
-                                </li>
-                            @endif
+
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                                     {{ Auth::user()->name }} <span class="caret"></span>
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="{{ route('hoa.index') }}">Super Admin</a></li>
                                     <li>
                                         <a href="{{ route('logout') }}"
                                             onclick="event.preventDefault();
@@ -77,17 +73,19 @@
                                     </li>
                                 </ul>
                             </li>
+
                         @endguest
                     </ul>
                 </div>
             </div>
         </nav>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2">
+        <div class="container-fluid">
+            <div class="row" align="left">
+            <!--    <div class="col-md-8 col-md-offset-2"> -->
                     @yield('content')
                 </div>
-            </div>
+            <!-- </div> -->
+
         </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

@@ -3,7 +3,20 @@
 @section('title', 'HOA Management')
 
 @section('content')
-    <h1>{{ $hoa->name }}</h1>
-    <h3>{{ $hoa->street_address_line_1 }}</h3>
-    <h3>{{ $hoa->city . ', ' . $hoa->state . ' ' . $hoa->zip }}</h3>
+    <div class = "container-fluid">
+    	<h4> {{ 'Welcome to the website for '. $hoa->name }}</h4>
+    	<p>
+    		Please register to receive up-to-date information on your account and information on upcoming meetings and events for your neighborhood.
+    	</p>
+    	<p>
+            For your convenience, this website contains Architectural Change Request and Resale Certificate Request forms with instructions as well as other important governing documents.
+        </p>
+
+        <p>
+            The mailing address for the HOA is: <br>
+            {{ $hoa->name }}<br>
+            {{ $hoa->street_address_line_1 }}<br>
+            {{ $hoa->city . ', ' . $hoa->state . ' ' . $hoa->zip }}
+        </p>
+    </div>
 @endsection

@@ -3,6 +3,7 @@ namespace App\Http\Controllers;
 
 use App\Hoa;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class HoaController extends Controller
 {
@@ -12,7 +13,15 @@ class HoaController extends Controller
     }
 
     public function index()
-    {
+    {     
+        if (Auth::user()->isBoardMember()) {
+            return redirect()->route('boardmember.index');
+        } elseif (Auth::user()->isComplianceOfficer()) {
+            return redirect()->route('compliance.index');
+        } elseif (Auth::user()->isOwner())  {
+            return redirect()->route('owner.index');
+        }
+
         $hoas = Hoa::all()->sortBy('name');
 
         return view('hoa.index', ['hoas' => $hoas]);
@@ -36,6 +45,9 @@ class HoaController extends Controller
 
     public function manage(Request $request, $id)
     {
+        // $boardmember = BoardMember::where('id', '=', Auth::user()->id)->first();
+        // dd(Auth::user()->boardmember(),$boardmember);
+
         $hoa = Hoa::where('id', '=', $id)->firstOrFail();
 
         $request->session()->put('hoa_id', $id);

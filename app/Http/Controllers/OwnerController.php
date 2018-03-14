@@ -18,10 +18,19 @@ class OwnerController extends Controller
 
     public function index(Request $request)
     {
-        $hoa = Hoa::findOrFail($request->session()->get('hoa_id'));
-        $owners = $hoa->owners()->get();
+        // only display information about current owner
+        $owner = Auth::user()->owner;
+        $hoa = $owner->hoa;
 
-        return view('owner.index', ['hoa' => $hoa, 'owners' => $owners]);
+        return view('owner.index', ['hoa' => $hoa, 'owner' => $owner]);
+    }
+
+    public function show($hoaId, $ownerId)
+    {
+        $hoa = Hoa::where('id', '=', $hoaId)->firstOrFail();
+        $owner = Owner::where('id', '=', $ownerId)->firstOrFail();
+
+        return view('owner.show', ['hoa' => $hoa, 'owner' => $owner]);
     }
 
     public function add(Request $request)
