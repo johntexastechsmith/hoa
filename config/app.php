@@ -15,6 +15,8 @@ return [
 
     'name' => env('APP_NAME', 'HOA Management'),
 
+    'hoa' => env('HOA_NAME'),
+
     /*
     |--------------------------------------------------------------------------
     | Application Environment

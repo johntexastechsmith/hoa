@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Auth;
 
+use App\Hoa;
 use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 use Illuminate\Support\Facades\Auth;
@@ -39,13 +40,11 @@ class LoginController extends Controller
     protected function redirectTo()
     {
         if (Auth::user()->isBoardMember()) {
-            //return route('compliance.index', [], false);
+            return route('boardmember.index', [], false);
         } elseif (Auth::user()->isComplianceOfficer()) {
             return route('compliance.index', [], false);
-        } elseif (Auth::user()->isComplianceOfficer()) {
-            //return route('compliance.index', [], false);
+        } else { // if (Auth::user()->isOwner()) 
+            return route('owner.index', [], false);
         }
-
-        return route('hoa.index', [], false);
     }
 }

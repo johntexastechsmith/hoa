@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use App\Hoa;
 use App\BoardMember;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
 
 class BoardMemberController extends Controller
 {
@@ -21,9 +23,12 @@ class BoardMemberController extends Controller
      */
     public function index(Request $request)
     {
-        $hoas = Hoa::all()->sortBy('name');
+        $boardMember = Auth::user()->boardMember;
+        $hoa = $boardMember->hoa;
 
-        return view('boardmember.index', ['hoas' => $hoas]);    
+        $owners = DB::table('owners')->where('hoa_id', $hoa->id)->get();
+
+        return view('boardmember.index', ['hoa' => $hoa, 'owners' => $owners]);    
     }
 
     /**

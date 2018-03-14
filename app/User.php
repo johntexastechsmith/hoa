@@ -64,11 +64,7 @@ class User extends Authenticatable
      */
     public function isOwner()
     {
-        if ($this->owner instanceof Owner) {
-            return true;
-        }
-
-        return false;
+        return ($this->owner instanceof Owner);
     }
 
     /**
@@ -88,11 +84,7 @@ class User extends Authenticatable
      */
     public function isBoardMember()
     {
-        if ($this->boardMember instanceof BoardMember) {
-            return true;
-        }
-
-        return false;
+        return ($this->boardMember instanceof BoardMember);
     }
 
     /**
@@ -112,10 +104,6 @@ class User extends Authenticatable
      */
     public function isComplianceOfficer()
     {
-        if ($this->complianceOfficer instanceof ComplianceOfficer) {
-            return true;
-        }
-
-        return false;
+        return ($this->complianceOfficer instanceof ComplianceOfficer);
     }
 }
