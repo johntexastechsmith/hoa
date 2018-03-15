@@ -72,6 +72,8 @@ Route::prefix('properties')->group(function () {
 
     Route::get('/', 'PropertyController@index')->name('property.index');
 
+    Route::get('/{hoaId}/{propertyId}', 'PropertyController@show')->name('property.show');
+
     Route::post('/create', 'PropertyController@create')->name('property.create');
 
     Route::get('/{id}/delete', 'PropertyController@delete')->name('property.delete');

@@ -9,7 +9,7 @@
                 <thead>
                 <tr>
                     <th>Owner Name</th>
-                    <th>Property Address</th>
+                    <th>Account Number</th>
                     <th></th>
                 </tr>
                 </thead>
