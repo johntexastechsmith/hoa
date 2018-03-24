@@ -3,6 +3,7 @@ namespace App\Http\Controllers;
 
 use App\Hoa;
 use App\Property;
+use App\Ticket;
 use Illuminate\Http\Request;
 
 class PropertyController extends Controller
@@ -19,6 +20,15 @@ class PropertyController extends Controller
 
         return view('property.index', ['properties' => $properties, 'hoa' => $hoa]);
     }
+
+    public function show($hoaId, $propertyId)
+    {
+        $hoa = Hoa::where('id', '=', $hoaId)->firstOrFail();
+        $property = Property::where('id', '=', $propertyId)->firstOrFail();
+        $tickets = Ticket::where('property_id', '=' , $propertyId);
+
+        return view('property.show', ['hoa' => $hoa, 'property' => $property, 'tickets' => $tickets]);
+    }   
 
     public function create(Request $request)
     {

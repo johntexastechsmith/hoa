@@ -5,7 +5,7 @@
 @section('content')
 
     <tr>
-        <td>Welcome {{ $owner->name }}<br></td>
+        <td>Owner Name: {{ $owner->name }}<br></td>
         <td>Account Number: {{ $owner->account_name }}</td>
     </tr>
 
