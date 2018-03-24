@@ -1,47 +1,31 @@
-@extends('base')
+@extends('layouts.app')
 
-@section('title', 'Page Title')
+@section('title', 'HOA Management')
 
 @section('content')
-    <p uk-margin>
-        <button class="uk-button uk-button-default uk-button-large">Large button</button>
-        <button class="uk-button uk-button-primary uk-button-large">Large button</button>
-        <button class="uk-button uk-button-secondary uk-button-large">Large button</button>
-    </p>
+    <div id="map" class="img-rounded center-block" style="width:400px;height:400px"></div>
 
-    <h3>My Google Maps Demo</h3>
-    <div id="map"></div>
-    <script>
-        function initMap() {
-            // Create a map object and specify the DOM element for display.
-            var map = new google.maps.Map(document.getElementById('map'), {
-                center: {lat: -34.397, lng: 150.644},
-                zoom: 8
-            });
-        }
-
-    </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"
-            async defer></script>
-
-    <!--
-    <div id="map"></div>
     <script>
         // Note: This example requires that you consent to location sharing when
         // prompted by your browser. If you see the error "The Geolocation service
         // failed.", it means you probably did not give permission for the browser to
         // locate you.
-        var map, infoWindow;
+        var map;
         function initMap() {
             map = new google.maps.Map(document.getElementById('map'), {
-                center: {lat: -34.397, lng: 150.644},
-                zoom: 6
+                center: {lat: 33.1596224, lng: -96.673815},
+                zoom: 18,
+                mapTypeControl: true,
+                mapTypeControlOptions: {
+                    style: google.maps.MapTypeControlStyle.DROPDOWN_MENU,
+                    position: google.maps.ControlPosition.TOP_CENTER
+                }
             });
             infoWindow = new google.maps.InfoWindow;
 
             // Try HTML5 geolocation.
             if (navigator.geolocation) {
-                navigator.geolocation.getCurrentPosition(function(position) {
+                navigator.geolocation.watchPosition(function(position) {
                     var pos = {
                         lat: position.coords.latitude,
                         lng: position.coords.longitude
@@ -69,7 +53,6 @@
         }
     </script>
     <script async defer
-            src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZtppLPoIiyxyjwkTxTE6_YjxS8Qm1izE&callback=initMap">
     </script>
-    -->
 @endsection

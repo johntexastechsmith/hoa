@@ -44,7 +44,7 @@ class LocationController extends Controller
             ->setParam($data)
             ->get());
 
-        return view('map');
+        return view('location');
         //return view('location', ['lat' => $location->location->lat, 'lng' => $location->location->lng]);
     }
 }
